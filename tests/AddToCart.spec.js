@@ -5,7 +5,7 @@ test('add to cart and checkout flow', async ({ page }) => {
   // Reuse login helper
   await login(page);
 
-  // Now do add to cart flow
+  // Now do add  cart flow
   await page.getByText('Sauce Labs Backpack').click();
   await page.locator('[data-test="add-to-cart"]').click();
   await page.locator('[data-test="shopping-cart-link"]').click();

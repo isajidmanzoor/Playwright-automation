@@ -1,10 +1,16 @@
-import { defineConfig } from '@playwright/test';
+const { defineConfig, devices } = require('@playwright/test');
 
-export default defineConfig({
+module.exports = defineConfig({
   testDir: './tests',
-  timeout: 30 * 1000,
+
   use: {
-    browserName: 'chromium',
-    headless: true,
+    headless: false,
   },
+
+  projects: [
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
+    },
+  ],
 });
