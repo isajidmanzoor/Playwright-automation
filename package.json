@@ -1,5 +1,5 @@
 {
-  "name": "playwright-js",
+  "name": "playwright",
   "version": "1.0.0",
   "scripts": {
     "test": "playwright test",
@@ -7,6 +7,36 @@
     "report": "playwright show-report"
   },
   "devDependencies": {
-    "@playwright/test": "^1.41.0"
-  }
+    "@playwright/test": "^1.41.0",
+    "allure-playwright": "^3.4.5"
+  },
+  "description": "",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "allure-js-commons": "^3.4.5",
+    "charenc": "^0.0.2",
+    "crypt": "^0.0.2",
+    "fsevents": "^2.3.2",
+    "is-buffer": "^1.1.6",
+    "langchain": "^1.2.24",
+    "md5": "^2.3.0",
+    "openai": "^6.22.0",
+    "playwright": "^1.58.2",
+    "playwright-core": "^1.58.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isajidmanzoor/Playwright-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/isajidmanzoor/Playwright-automation/issues"
+  },
+  "homepage": "https://github.com/isajidmanzoor/Playwright-automation#readme"
 }
