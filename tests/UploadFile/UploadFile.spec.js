@@ -1,9 +1,9 @@
 import { test, expect } from '@playwright/test';
 import path from 'path';
 
-test('UploadFile', async ({ page }) => {
-  const fileToUpload = path.join(process.cwd(), 'uploads', 'image.jpeg');
+const fileToUpload = path.join(process.cwd(), 'uploads', 'image.jpeg');
 
+test('should upload a file successfully', async ({ page }) => {
   await page.goto('https://practice.expandtesting.com/upload');
 
   await page.getByTestId('file-input').setInputFiles(fileToUpload);

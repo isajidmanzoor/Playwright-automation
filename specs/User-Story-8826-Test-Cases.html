@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Story #8826 - Test Cases</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f9f9f9;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+        }
+        .page-break {
+            page-break-after: always;
+            margin: 50px 0;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+        }
+        h1 {
+            color: #366092;
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #366092;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #366092;
+            font-size: 18px;
+            margin: 25px 0 15px 0;
+            border-left: 4px solid #366092;
+            padding-left: 12px;
+        }
+        h3 {
+            color: #555;
+            font-size: 14px;
+            margin: 15px 0 8px 0;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .info-table th, .info-table td {
+            padding: 10px 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .info-table th {
+            background-color: #366092;
+            color: white;
+            font-weight: bold;
+        }
+        .info-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        .summary-table th {
+            background-color: #366092;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            font-weight: bold;
+        }
+        .summary-table td {
+            padding: 8px 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .summary-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .test-case {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-left: 4px solid #366092;
+        }
+        .tc-header {
+            font-weight: bold;
+            color: #366092;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+        .tc-field {
+            margin: 8px 0;
+            font-size: 12px;
+            line-height: 1.5;
+        }
+        .tc-label {
+            font-weight: bold;
+            color: #555;
+            display: inline-block;
+            width: 100px;
+        }
+        .ac-list {
+            margin: 15px 0;
+        }
+        .ac-item {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 3px solid #ddd;
+            font-size: 13px;
+        }
+        .ac-id {
+            font-weight: bold;
+            color: #366092;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #888;
+            font-size: 11px;
+        }
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            .page-break {
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Title Page -->
+        <h1>User Story #8826</h1>
+        <p class="subtitle">Add new Connection types in BASE &<br>amend AFAS Relation Type Mapping</p>
+        
+        <h2>Project Information</h2>
+        <table class="info-table">
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Epic</td>
+                <td>BASE / BASE Core</td>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td>To do</td>
+            </tr>
+            <tr>
+                <td>Assigned Developer</td>
+                <td>Rayan Ahmad - NoNames</td>
+            </tr>
+            <tr>
+                <td>Stakeholder</td>
+                <td>Kseniya Kudravets</td>
+            </tr>
+            <tr>
+                <td>Test Plan Date</td>
+                <td>February 18, 2026</td>
+            </tr>
+            <tr>
+                <td>Total Test Cases</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Connection Type Codes</td>
+                <td>DIRA, DIRB, DIRC, PUBO</td>
+            </tr>
+            <tr>
+                <td>Class Assignment</td>
+                <td>Officer / Principal (all types)</td>
+            </tr>
+            <tr>
+                <td>Primary Module</td>
+                <td>Master Data → Connection Types</td>
+            </tr>
+            <tr>
+                <td>Secondary Module</td>
+                <td>Master Data → AFAS Relation Type Mappings</td>
+            </tr>
+        </table>
+
+        <div class="page-break"></div>
+
+        <!-- Acceptance Criteria -->
+        <h2>Acceptance Criteria</h2>
+        <div class="ac-list">
+            <div class="ac-item">
+                <span class="ac-id">AC1:</span> Add 4 Connection Types with Officer/Principal class
+                <br><strong>Details:</strong> Director A (DIRA), Director B (DIRB), Director C (DIRC), Pseudo-UBO (PUBO)
+            </div>
+            <div class="ac-item">
+                <span class="ac-id">AC2:</span> Create AFAS Relation Type Mappings
+                <br><strong>Details:</strong> Director A→DIRA, Director B→DIRB, Director C→DIRC, Pseudo-UBO→PUBO
+            </div>
+            <div class="ac-item">
+                <span class="ac-id">AC3:</span> All mappings must be Active/Enabled
+                <br><strong>Details:</strong> AFAS integration must be properly configured and functional
+            </div>
+            <div class="ac-item">
+                <span class="ac-id">AC4:</span> Data Integrity
+                <br><strong>Details:</strong> AFAS data correctly syncs with new connection types; No duplicate codes allowed
+            </div>
+        </div>
+
+        <div class="page-break"></div>
+
+        <!-- Test Summary -->
+        <h2>Test Summary (15 Test Cases)</h2>
+        <table class="summary-table">
+            <thead>
+                <tr>
+                    <th>Test Case ID</th>
+                    <th>Title</th>
+                    <th>Type</th>
+                    <th>Priority</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TC-8826-001</td>
+                    <td>Add Connection Type DIRA (Director A)</td>
+                    <td>Functional</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-002</td>
+                    <td>Add Connection Type DIRB (Director B)</td>
+                    <td>Functional</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-003</td>
+                    <td>Add Connection Type DIRC (Director C)</td>
+                    <td>Functional</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-004</td>
+                    <td>Add Connection Type PUBO (Pseudo-UBO)</td>
+                    <td>Functional</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-005</td>
+                    <td>Map AFAS Director A → BASE DIRA</td>
+                    <td>Functional</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-006</td>
+                    <td>Map AFAS Director B → BASE DIRB</td>
+                    <td>Functional</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-007</td>
+                    <td>Map AFAS Director C → BASE DIRC</td>
+                    <td>Functional</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-008</td>
+                    <td>Map AFAS Pseudo-UBO → BASE PUBO</td>
+                    <td>Functional</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-009</td>
+                    <td>Verify All Connection Types Are Listed</td>
+                    <td>Verification</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-010</td>
+                    <td>Verify All AFAS Relation Type Mappings Are Active</td>
+                    <td>Verification</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-011</td>
+                    <td>Negative Test — Duplicate Connection Type Code</td>
+                    <td>Negative</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-012</td>
+                    <td>Negative Test — Invalid Characters in Code</td>
+                    <td>Negative</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-013</td>
+                    <td>AFAS Data Integration Test</td>
+                    <td>Integration</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-014</td>
+                    <td>User Permission Test</td>
+                    <td>Security</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>TC-8826-015</td>
+                    <td>Class Assignment Verification</td>
+                    <td>Verification</td>
+                    <td>High</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="page-break"></div>
+
+        <!-- Detailed Test Cases -->
+        <h2>Detailed Test Cases</h2>
+        
+        <div class="test-case">
+            <div class="tc-header">TC-8826-001: Add Connection Type DIRA (Director A)</div>
+            <div class="tc-field"><span class="tc-label">Objective:</span> Verify that the Director A connection type with code DIRA and Officer/Principal class can be created in BASE.</div>
+            <div class="tc-field"><span class="tc-label">Steps:</span>
+                <ol style="margin-left: 20px;">
+                    <li>Navigate to Master Data → Connection Types in BASE system</li>
+                    <li>In Active Connection Types table, click New button (top toolbar)</li>
+                    <li>Enter: Code: DIRA, Name: Director A, Class: Officer / Principal</li>
+                    <li>Review the entry for accuracy</li>
+                    <li>Click Save or Create button</li>
+                </ol>
+            </div>
+            <div class="tc-field"><span class="tc-label">Expected:</span> Connection type DIRA created; Confirmation message displayed; DIRA appears in Active Connection Types table with Officer/Principal class; Status shows Active</div>
+        </div>
+
+        <div class="test-case">
+            <div class="tc-header">TC-8826-002: Add Connection Type DIRB (Director B)</div>
+            <div class="tc-field"><span class="tc-label">Objective:</span> Verify that the Director B connection type with code DIRB and Officer/Principal class can be created in BASE.</div>
+            <div class="tc-field"><span class="tc-label">Steps:</span>
+                <ol style="margin-left: 20px;">
+                    <li>Navigate to Master Data → Connection Types in BASE system</li>
+                    <li>Click New button</li>
+                    <li>Enter: Code: DIRB, Name: Director B, Class: Officer / Principal</li>
+                    <li>Review the entry for accuracy</li>
+                    <li>Click Save button</li>
+                </ol>
+            </div>
+            <div class="tc-field"><span class="tc-label">Expected:</span> Connection type DIRB created; Confirmation message displayed; DIRB appears in Active Connection Types table; Class set to Officer/Principal; Status shows Active</div>
+        </div>
+
+        <div class="test-case">
+            <div class="tc-header">TC-8826-003: Add Connection Type DIRC (Director C)</div>
+            <div class="tc-field"><span class="tc-label">Objective:</span> Verify that the Director C connection type with code DIRC and Officer/Principal class can be created in BASE.</div>
+            <div class="tc-field"><span class="tc-label">Steps:</span>
+                <ol style="margin-left: 20px;">
+                    <li>Navigate to Master Data → Connection Types in BASE system</li>
+                    <li>Click New button</li>
+                    <li>Enter: Code: DIRC, Name: Director C, Class: Officer / Principal</li>
+                    <li>Review the entry for accuracy</li>
+                    <li>Click Save button</li>
+                </ol>
+            </div>
+            <div class="tc-field"><span class="tc-label">Expected:</span> Connection type DIRC created; Confirmation message displayed; DIRC appears in Active Connection Types table; Class set to Officer/Principal; Status shows Active</div>
+        </div>
+
+        <div class="test-case">
+            <div class="tc-header">TC-8826-004: Add Connection Type PUBO (Pseudo-UBO)</div>
+            <div class="tc-field"><span class="tc-label">Objective:</span> Verify that the Pseudo-UBO connection type with code PUBO and Officer/Principal class can be created in BASE.</div>
+            <div class="tc-field"><span class="tc-label">Steps:</span>
+                <ol style="margin-left: 20px;">
+                    <li>Navigate to Master Data → Connection Types in BASE system</li>
+                    <li>Click New button</li>
+                    <li>Enter: Code: PUBO, Name: Pseudo-UBO, Class: Officer / Principal</li>
+                    <li>Review the entry for accuracy</li>
+                    <li>Click Save button</li>
+                </ol>
+            </div>
+            <div class="tc-field"><span class="tc-label">Expected:</span> Connection type PUBO created; Confirmation message displayed; PUBO appears in Active Connection Types table; Class set to Officer/Principal; Status shows Active</div>
+        </div>
+
+        <div class="test-case">
+            <div class="tc-header">TC-8826-005 to TC-8826-008: AFAS Relation Type Mapping Tests</div>
+            <div class="tc-field"><span class="tc-label">Objective:</span> Create AFAS mappings for all four new connection types (Director A→DIRA, Director B→DIRB, Director C→DIRC, Pseudo-UBO→PUBO)</div>
+            <div class="tc-field"><span class="tc-label">Steps (for each mapping):</span>
+                <ol style="margin-left: 20px;">
+                    <li>Navigate to Master Data → AFAS Relation Type Mappings</li>
+                    <li>Click New button to create mapping entry</li>
+                    <li>Enter AFAS connection type and corresponding BASE code from mapping</li>
+                    <li>Set status to Active or Enabled</li>
+                    <li>Click Save button</li>
+                </ol>
+            </div>
+            <div class="tc-field"><span class="tc-label">Expected:</span> Each mapping successfully created; Confirmation messages displayed; All mappings appear in list marked Active; Correct AFAS to BASE code pairs shown</div>
+        </div>
+
+        <div class="test-case">
+            <div class="tc-header">TC-8826-009: Verify All Connection Types Are Listed</div>
+            <div class="tc-field"><span class="tc-label">Objective:</span> Verify that all four new connection types with codes appear in the BASE Connection Types table.</div>
+            <div class="tc-field"><span class="tc-label">Steps:</span>
+                <ol style="margin-left: 20px;">
+                    <li>Navigate to Master Data → Connection Types in BASE system</li>
+                    <li>View the Active Connection Types table</li>
+                    <li>Check if all four types visible: DIRA (Director A), DIRB (Director B), DIRC (Director C), PUBO (Pseudo-UBO)</li>
+                    <li>Verify each entry shows correct Name value</li>
+                    <li>Confirm all show Officer/Principal class</li>
+                </ol>
+            </div>
+            <div class="tc-field"><span class="tc-label">Expected:</span> All four connection type codes present in table; Correct names displayed; All show Officer/Principal class; All statuses show Active; No errors or warnings</div>
+        </div>
+
+        <div class="test-case">
+            <div class="tc-header">TC-8826-010: Verify All AFAS Relation Type Mappings Are Active</div>
+            <div class="tc-field"><span class="tc-label">Objective:</span> Verify that all AFAS relation type mappings have been created and are active.</div>
+            <div class="tc-field"><span class="tc-label">Steps:</span>
+                <ol style="margin-left: 20px;">
+                    <li>Navigate to Master Data → AFAS Relation Type Mappings</li>
+                    <li>View the mapping list/table</li>
+                    <li>Search for and verify presence of all four mappings</li>
+                    <li>Verify each mapping shows status as Active or Enabled</li>
+                </ol>
+            </div>
+            <div class="tc-field"><span class="tc-label">Expected:</span> All four mappings visible in list; Correct source/destination pairs shown; All marked Active/Enabled; No conflicts or duplicates; All reference correct BASE codes</div>
+        </div>
+
+        <div class="test-case">
+            <div class="tc-header">TC-8826-011 & TC-8826-012: Negative Tests</div>
+            <div class="tc-field"><span class="tc-label">Objective:</span> Verify system prevents duplicate codes and rejects invalid characters.</div>
+            <div class="tc-field"><span class="tc-label">TC-8826-011 - Duplicate Code:</span> Attempt to create connection type with code DIRA (already exists). System should display error and prevent creation.</div>
+            <div class="tc-field"><span class="tc-label">TC-8826-012 - Invalid Characters:</span> Attempt to create connection type with code containing special characters (e.g., DIR@#$%). System should display validation error and prevent creation.</div>
+            <div class="tc-field"><span class="tc-label">Expected:</span> Appropriate error messages displayed; No duplicates or invalid codes created; User returned to form with errors highlighted</div>
+        </div>
+
+        <div class="test-case">
+            <div class="tc-header">TC-8826-013: AFAS Data Integration Test</div>
+            <div class="tc-field"><span class="tc-label">Objective:</span> Verify that AFAS data with new connection types is correctly processed and mapped to BASE.</div>
+            <div class="tc-field"><span class="tc-label">Steps:</span>
+                <ol style="margin-left: 20px;">
+                    <li>Prepare test AFAS data with records containing Director A, B, C, and Pseudo-UBO types</li>
+                    <li>Trigger AFAS data import/sync process</li>
+                    <li>Monitor sync process completion</li>
+                    <li>Check BASE system for imported records</li>
+                    <li>Verify Connection Type field values in imported records</li>
+                </ol>
+            </div>
+            <div class="tc-field"><span class="tc-label">Expected:</span> AFAS import/sync completes successfully; No critical errors; All records correctly mapped: Director A→DIRA, Director B→DIRB, Director C→DIRC, Pseudo-UBO→PUBO; All show Officer/Principal class; Record counts match source</div>
+        </div>
+
+        <div class="test-case">
+            <div class="tc-header">TC-8826-014: User Permission Test</div>
+            <div class="tc-field"><span class="tc-label">Objective:</span> Verify that only authorized users can add/modify connection types and mappings.</div>
+            <div class="tc-field"><span class="tc-label">Steps:</span>
+                <ol style="margin-left: 20px;">
+                    <li>Test with admin user: Verify New button available; Verify ability to create types and mappings</li>
+                    <li>Test with read-only user: Check New button status; Verify cannot access mapping configuration</li>
+                </ol>
+            </div>
+            <div class="tc-field"><span class="tc-label">Expected:</span> Admin user: Can view list, create types, modify mappings; Read-only user: Can view only, New button disabled/hidden, cannot modify, shows Permission Denied for unauthorized actions</div>
+        </div>
+
+        <div class="test-case">
+            <div class="tc-header">TC-8826-015: Class Assignment Verification</div>
+            <div class="tc-field"><span class="tc-label">Objective:</span> Verify that all new connection types are correctly assigned to Officer/Principal class.</div>
+            <div class="tc-field"><span class="tc-label">Steps:</span>
+                <ol style="margin-left: 20px;">
+                    <li>Navigate to Master Data → Connection Types</li>
+                    <li>View Active Connection Types table</li>
+                    <li>For each type (DIRA, DIRB, DIRC, PUBO): Click row, check Class field</li>
+                    <li>Confirm all display Officer/Principal</li>
+                </ol>
+            </div>
+            <div class="tc-field"><span class="tc-label">Expected:</span> All four types display Officer/Principal class; No misclassified entries; No classification warnings</div>
+        </div>
+
+        <div class="page-break"></div>
+
+        <!-- Key Requirements -->
+        <h2>Key Requirements & Notes</h2>
+        <ul style="margin-left: 20px;">
+            <li><strong>BASE System Navigation:</strong> All operations via Master Data section</li>
+            <li><strong>Code Format:</strong> Uppercase alphanumeric: DIRA, DIRB, DIRC, PUBO</li>
+            <li><strong>Class Assignment:</strong> All types must be "Officer / Principal"</li>
+            <li><strong>AFAS Integration:</strong> Must be active and configured before mapping tests</li>
+            <li><strong>Testing Environment:</strong> Development/UAT only (avoid production data)</li>
+            <li><strong>User Access:</strong> Admin privileges required for create/modify operations</li>
+            <li><strong>Stakeholder Input:</strong> Kseniya Kudravets specified exact codes and class on Jan 30</li>
+            <li><strong>Data Validation:</strong> System must prevent duplicate codes and invalid characters</li>
+        </ul>
+
+        <div class="footer">
+            <p>User Story #8826 | BASE/BASE Core Epic | Test Plan Document</p>
+            <p>Generated: February 18, 2026</p>
+            <p>Total Test Cases: 15 | Print this page as PDF for archival purposes</p>
+        </div>
+    </div>
+
+    <script>
+        // Optional: Auto-format for printing
+        if (window.location.search.includes('print')) {
+            window.print();
+        }
+    </script>
+</body>
+</html>

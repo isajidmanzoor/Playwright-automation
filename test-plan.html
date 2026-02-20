@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeltaPrime AI Solutions - Test Plan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #0066ff;
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            color: #0066ff;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        
+        .date {
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        h2 {
+            color: #0066ff;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-left: 4px solid #0066ff;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #333;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        .overview {
+            background: #f0f7ff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            border-left: 4px solid #0066ff;
+        }
+        
+        .overview p {
+            margin-bottom: 10px;
+            color: #555;
+        }
+        
+        .test-suite {
+            margin-bottom: 35px;
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #0066ff;
+        }
+        
+        .suite-title {
+            color: #0066ff;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .test-count {
+            background: #0066ff;
+            color: white;
+            border-radius: 20px;
+            padding: 5px 15px;
+            margin-left: 10px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        
+        .test-case {
+            background: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            border-left: 3px solid #0099ff;
+        }
+        
+        .test-name {
+            color: #0066ff;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .test-description {
+            color: #666;
+            font-size: 0.95em;
+            margin-left: 10px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            color: #666;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        .summary-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .stat-box {
+            background: linear-gradient(135deg, #0066ff, #0099ff);
+            color: white;
+            padding: 25px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+        
+        .page-break {
+            page-break-after: always;
+            margin: 40px 0;
+            border-top: 2px solid #eee;
+            padding-top: 40px;
+        }
+        
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        .website-url {
+            color: #0066ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 DeltaPrime AI Solutions</h1>
+            <p class="subtitle">Comprehensive Test Plan</p>
+            <p class="date">Generated on February 18, 2026</p>
+        </header>
+        
+        <div class="overview">
+            <h2>Executive Summary</h2>
+            <p><strong>Website:</strong> <a href="https://deltaprimeaisolutions.com" class="website-url">https://deltaprimeaisolutions.com</a></p>
+            <p><strong>Purpose:</strong> Comprehensive end-to-end testing of the DeltaPrime AI Solutions website covering all pages, features, and user interactions.</p>
+            <p><strong>Scope:</strong> Full website functionality including navigation, forms, responsive design, and accessibility.</p>
+        </div>
+        
+        <div class="summary-stats">
+            <div class="stat-box">
+                <div class="stat-number">10</div>
+                <div class="stat-label">Test Suites</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">51</div>
+                <div class="stat-label">Test Cases</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Pages Tested</div>
+            </div>
+        </div>
+        
+        <!-- Suite 1 -->
+        <div class="test-suite">
+            <div class="suite-title">
+                1. Navigation and Page Loading
+                <span class="test-count">5 tests</span>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Homepage loads successfully</div>
+                <div class="test-description">Verifies the homepage displays with correct title and hero content</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Navigation menu items are visible and clickable</div>
+                <div class="test-description">Checks all navigation items (Home, Services, About, Contact) are visible</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Can navigate to Services page</div>
+                <div class="test-description">Verifies navigation to /services page and content loading</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Can navigate to About page</div>
+                <div class="test-description">Verifies navigation to /about page and content loading</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Can navigate to Contact page</div>
+                <div class="test-description">Verifies navigation to /contact page and content loading</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Logo clicks return to home</div>
+                <div class="test-description">Verifies clicking logo navigates back to homepage</div>
+            </div>
+        </div>
+        
+        <!-- Suite 2 -->
+        <div class="test-suite">
+            <div class="suite-title">
+                2. Homepage Hero Section
+                <span class="test-count">4 tests</span>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Hero section displays main heading and subheading</div>
+                <div class="test-description">Validates presence of main headline "Transform Your Business with Intelligent AI"</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Get Started button in hero is clickable</div>
+                <div class="test-description">Verifies Get Started button navigates to contact page</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Explore Services button navigates to services</div>
+                <div class="test-description">Verifies Explore Services button navigation functionality</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Hero section displays decorative elements</div>
+                <div class="test-description">Checks for presence of hero images and visual elements</div>
+            </div>
+        </div>
+        
+        <!-- Suite 3 -->
+        <div class="test-suite">
+            <div class="suite-title">
+                3. Why Choose DeltaPrime Section
+                <span class="test-count">3 tests</span>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Why Choose section is visible on homepage</div>
+                <div class="test-description">Verifies the features section loads on scroll</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ All feature cards are displayed</div>
+                <div class="test-description">Checks visibility of Fast Deployment, Enterprise Security, and Global Scale cards</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Feature descriptions are present</div>
+                <div class="test-description">Validates feature descriptions are accurate and visible</div>
+            </div>
+        </div>
+        
+        <div class="page-break"></div>
+        
+        <!-- Suite 4 -->
+        <div class="test-suite">
+            <div class="suite-title">
+                4. Services Page
+                <span class="test-count">5 tests</span>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Services page header is displayed</div>
+                <div class="test-description">Verifies "AI Solutions That Drive Real Results" heading appears</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ All service cards are visible</div>
+                <div class="test-description">Checks visibility of all 5 service cards: Web Development, App Development, AI Development, QA, DevOps</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Service descriptions contain key details</div>
+                <div class="test-description">Validates technical details and features listed under each service</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Our Process section displays 4 steps</div>
+                <div class="test-description">Verifies Discover, Design, Develop, Deploy process steps are visible</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Service features are listed</div>
+                <div class="test-description">Checks bullet points for QA and DevOps features</div>
+            </div>
+        </div>
+        
+        <!-- Suite 5 -->
+        <div class="test-suite">
+            <div class="suite-title">
+                5. About Page
+                <span class="test-count">4 tests</span>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ About page header is displayed</div>
+                <div class="test-description">Verifies "About DeltaPrime" heading appears with company description</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Company mission section is visible</div>
+                <div class="test-description">Checks "Our Mission" and company mission statement visibility</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Company statistics are displayed</div>
+                <div class="test-description">Validates presence of 2025 Founded, 10+ Projects, 50+ Team Members, Global Delivery statistics</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Company description is present</div>
+                <div class="test-description">Verifies company founding information is displayed</div>
+            </div>
+        </div>
+        
+        <div class="page-break"></div>
+        
+        <!-- Suite 6 -->
+        <div class="test-suite">
+            <div class="suite-title">
+                6. Contact Page
+                <span class="test-count">8 tests</span>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Contact page header and description displayed</div>
+                <div class="test-description">Verifies "Get in Touch" heading and description are visible</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Contact form has all required fields</div>
+                <div class="test-description">Checks for Full Name, Email Address, and Message input fields</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Send Message button is present and clickable</div>
+                <div class="test-description">Verifies submit button functionality</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Contact information section displays correctly</div>
+                <div class="test-description">Validates email, phone, and address information display</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Office hours are displayed</div>
+                <div class="test-description">Checks Monday-Friday, Saturday, and Sunday hours visibility</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Contact form can be filled and validated</div>
+                <div class="test-description">Tests form field population with test data</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Email and phone links are functional</div>
+                <div class="test-description">Verifies mailto and tel link attributes</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ WhatsApp chat button is present</div>
+                <div class="test-description">Checks WhatsApp contact link visibility</div>
+            </div>
+        </div>
+        
+        <!-- Suite 7 -->
+        <div class="test-suite">
+            <div class="suite-title">
+                7. Footer
+                <span class="test-count">8 tests</span>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Footer is visible on all pages</div>
+                <div class="test-description">Verifies footer appears on all 5 main pages</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Footer contains company information</div>
+                <div class="test-description">Checks DeltaPrime company description in footer</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Footer company links are functional</div>
+                <div class="test-description">Validates About Us, Services, Contact footer links</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Footer services links are present</div>
+                <div class="test-description">Checks AI Development, QA Development, Mern Stack, DevOps links</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Footer contact information is present</div>
+                <div class="test-description">Validates address, phone, and email in footer</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Footer social media links are present</div>
+                <div class="test-description">Checks LinkedIn, Twitter, GitHub links</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Footer contains copyright information</div>
+                <div class="test-description">Verifies copyright year and company name</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Footer policy links are present</div>
+                <div class="test-description">Checks Privacy Policy and Terms of Service links</div>
+            </div>
+        </div>
+        
+        <div class="page-break"></div>
+        
+        <!-- Suite 8 -->
+        <div class="test-suite">
+            <div class="suite-title">
+                8. UI Elements and Interactive Features
+                <span class="test-count">5 tests</span>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Dark mode toggle button is present</div>
+                <div class="test-description">Verifies theme toggle button on all pages</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Get Started button on key pages</div>
+                <div class="test-description">Checks Get Started button presence on Home, Services, About pages</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Schedule Consultation link visibility</div>
+                <div class="test-description">Verifies Schedule Consultation link on homepage</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ All navigation links have proper hrefs</div>
+                <div class="test-description">Validates href attributes for all main navigation links</div>
+            </div>
+        </div>
+        
+        <!-- Suite 9 -->
+        <div class="test-suite">
+            <div class="suite-title">
+                9. Page Performance and Accessibility
+                <span class="test-count">4 tests</span>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Pages load within reasonable time</div>
+                <div class="test-description">Verifies page load time under 10 seconds</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Images have alt text for accessibility</div>
+                <div class="test-description">Checks presence of alt attributes on images</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Headings are properly structured</div>
+                <div class="test-description">Validates proper H1, H2, H3 hierarchy</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Links have visible text or aria-labels</div>
+                <div class="test-description">Ensures all links are accessible</div>
+            </div>
+        </div>
+        
+        <div class="page-break"></div>
+        
+        <!-- Suite 10 -->
+        <div class="test-suite">
+            <div class="suite-title">
+                10. Error States and Edge Cases
+                <span class="test-count">3 tests</span>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Invalid URL handling</div>
+                <div class="test-description">Tests /nonexistent-page returns appropriate response</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ Empty form submission validation</div>
+                <div class="test-description">Verifies form validation on contact page</div>
+            </div>
+            <div class="test-case">
+                <div class="test-name">✓ No JavaScript errors on load</div>
+                <div class="test-description">Validates page loads without console errors</div>
+            </div>
+        </div>
+        
+        <div class="page-break"></div>
+        
+        <h2>Test Execution Details</h2>
+        
+        <h3>Technology Stack</h3>
+        <ul>
+            <li><strong>Test Framework:</strong> Playwright Test</li>
+            <li><strong>Browser:</strong> Chromium</li>
+            <li><strong>Language:</strong> JavaScript</li>
+            <li><strong>Node.js:</strong> Modern LTS version</li>
+        </ul>
+        
+        <h3>How to Run Tests</h3>
+        <ul>
+            <li><strong>All tests:</strong> <code>npm test</code></li>
+            <li><strong>Test file only:</strong> <code>npx playwright test tests/TestPlan.spec.js</code></li>
+            <li><strong>Headed mode (see browser):</strong> <code>npx playwright test --headed</code></li>
+            <li><strong>Single test:</strong> <code>npx playwright test -g "test name"</code></li>
+            <li><strong>View report:</strong> <code>npm run report</code></li>
+        </ul>
+        
+        <h3>Test Coverage Areas</h3>
+        <ul>
+            <li><strong>Page Navigation:</strong> All internal links and page transitions</li>
+            <li><strong>Content Verification:</strong> Text, headings, descriptions on all pages</li>
+            <li><strong>Form Testing:</strong> Contact form functionality and validation</li>
+            <li><strong>UI Elements:</strong> Buttons, links, accessibility features</li>
+            <li><strong>Responsive Design:</strong> Page layout and responsiveness</li>
+            <li><strong>Performance:</strong> Page load times and performance metrics</li>
+            <li><strong>Error Handling:</strong> Edge cases and error states</li>
+            <li><strong>Accessibility:</strong> WCAG compliance and semantic HTML</li>
+        </ul>
+        
+        <h3>Pages Tested</h3>
+        <ul>
+            <li><strong>Homepage:</strong> https://deltaprimeaisolutions.com/</li>
+            <li><strong>Services:</strong> https://deltaprimeaisolutions.com/services</li>
+            <li><strong>About:</strong> https://deltaprimeaisolutions.com/about</li>
+            <li><strong>Contact:</strong> https://deltaprimeaisolutions.com/contact</li>
+            <li><strong>Privacy:</strong> https://deltaprimeaisolutions.com/privacy</li>
+            <li><strong>Terms:</strong> https://deltaprimeaisolutions.com/terms</li>
+        </ul>
+        
+        <footer>
+            <p><strong>Test Plan Document</strong></p>
+            <p>DeltaPrime AI Solutions Comprehensive Testing</p>
+            <p>Generated: February 18, 2026</p>
+            <p>Website: <a href="https://deltaprimeaisolutions.com" class="website-url">https://deltaprimeaisolutions.com</a></p>
+        </footer>
+    </div>
+</body>
+</html>

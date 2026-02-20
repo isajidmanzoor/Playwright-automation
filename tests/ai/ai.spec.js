@@ -1,10 +1,17 @@
 import { test, expect } from '@playwright/test';
-import { login } from './helpers';
-test('add to cart and checkout flow', async ({ page }) => {
+import { generateTestCase } from "../ai/aiAgent";
+import { login } from '../helpers';
+
+test('AI Generated Test Case', async ({ page }) => {
+
+  // Use AI (at least once so import makes sense)
+  const aiStep = generateTestCase("Add to cart flow");
+  console.log(aiStep);
+
   // Reuse login helper
   await login(page);
 
-  // Now do add  cart flow
+  // Add to cart flow
   await page.getByText('Sauce Labs Backpack').click();
   await page.locator('[data-test="add-to-cart"]').click();
   await page.locator('[data-test="shopping-cart-link"]').click();
