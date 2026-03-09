@@ -46,3 +46,22 @@ test('Mouse hover using mouse.move() — animated with exit', async ({ page }) =
     await page.screenshot({ path: 'hover-exit.png' });
   }
 });
+
+
+test.beforeEach(async ({ page }) => {
+  // Ye har test se pehle automatically chalega
+  await page.goto('https://smartlivingpakistan.com/');
+});
+
+test.afterEach(async ({ page }) => {
+  // Ye har test ke baad automatically chalega
+  await page.screenshot({ path: `screenshots/test-${Date.now()}.png` });
+});
+
+test('Test 1', async ({ page }) => {
+  await page.click('text=Islamic Wall Art');
+});
+
+test('Test 2', async ({ page }) => {
+  await page.click('text=Garden Lights');
+});

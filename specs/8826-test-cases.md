@@ -352,6 +352,7 @@ All new connection types (DIRA, DIRB, DIRC, PUBO) must be classified as "Officer
 - No mapping conflicts or duplicates detected
 - All mappings reference the correct BASE connection type codes (DIRA, DIRB, DIRC, PUBO)
 
+
 **Postconditions:**
 - AFAS integration is properly configured with all required mappings
 
@@ -426,15 +427,15 @@ All new connection types (DIRA, DIRB, DIRC, PUBO) must be classified as "Officer
 - User has access to AFAS import/sync logs
 
 **Steps:**
-1. Prepare test AFAS data with records containing:
-   - AFAS Connection Type: Director A
-   - AFAS Connection Type: Director B
-   - AFAS Connection Type: Director C
-   - AFAS Connection Type: Pseudo-UBO
-2. Trigger AFAS data import/sync process (manually or via scheduled job)
-3. Monitor sync process completion
-4. Check BASE system for imported records
-5. Verify Connection Type fields in imported records
+   1. Prepare test AFAS data with records containing:
+      - AFAS Connection Type: Director A
+      - AFAS Connection Type: Director B
+      - AFAS Connection Type: Director C
+      - AFAS Connection Type: Pseudo-UBO
+   2. Trigger AFAS data import/sync process (manually or via scheduled job)
+   3. Monitor sync process completion
+   4. Check BASE system for imported records
+   5. Verify Connection Type fields in imported records
 
 **Expected Results:**
 - AFAS import/sync completes successfully

@@ -1,0 +1,6 @@
+{
+  "appId": "com.yourcompany.slp",
+  "appName": "SLP Mobile Wrapper",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

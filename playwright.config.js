@@ -19,3 +19,16 @@ module.exports = defineConfig({
     // },
   ],
 });
+
+
+
+module.exports = {
+  reporter: [
+    ['list'],
+    ['allure-playwright']
+  ],
+  use: {
+    headless: true,
+    screenshot: 'only-on-failure'
+  }
+};

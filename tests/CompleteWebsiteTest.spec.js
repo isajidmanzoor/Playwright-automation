@@ -131,7 +131,7 @@ test.describe('Complete Website Test Suite', () => {
       }
     });
 
-    test('CW-009: Back button functionality', async ({ page }) => {
+    test ('CW-009: Back button functionality', async ({ page }) => {
       await page.goto(BASE_URL);
       
       // Login

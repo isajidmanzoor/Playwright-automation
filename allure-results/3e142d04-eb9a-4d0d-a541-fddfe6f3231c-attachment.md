@@ -1,0 +1,1574 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e4]:
+    - generic [ref=e8]:
+      - paragraph [ref=e17]: 🚚Free Delivery Alert!
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - link "Smart Living Pakistan" [ref=e25] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/
+            - img "Smart Living Pakistan" [ref=e26]
+          - navigation "Primary Navigation" [ref=e28]:
+            - list [ref=e30]:
+              - listitem [ref=e31]:
+                - link "Switch Plates" [ref=e32] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product-category/switch-boards/
+                  - generic [ref=e33]:
+                    - text: Switch Plates
+                    - img [ref=e36]
+              - listitem [ref=e38]:
+                - link "Lights" [ref=e39] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product-category/lights/
+                  - generic [ref=e40]:
+                    - text: Lights
+                    - img [ref=e43]
+              - listitem [ref=e45]:
+                - link "Smart Home" [ref=e46] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e47]:
+                    - text: Smart Home
+                    - img [ref=e50]
+              - listitem [ref=e52]:
+                - link "Wall Decore" [ref=e53] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product-category/wall-decor/
+                  - generic [ref=e54]:
+                    - text: Wall Decore
+                    - img [ref=e57]
+              - listitem [ref=e59]:
+                - link "Hardware" [ref=e60] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product-category/hardware/
+                  - generic [ref=e61]:
+                    - text: Hardware
+                    - img [ref=e64]
+              - listitem [ref=e66]:
+                - link "Gym" [ref=e67] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product-category/gym-accessories/
+                  - generic [ref=e68]:
+                    - text: Gym
+                    - img [ref=e71]
+              - listitem [ref=e73]:
+                - link "Plants" [ref=e74] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product-category/plants/
+        - generic [ref=e75]:
+          - button "View Search Form" [ref=e78] [cursor=pointer]:
+            - img [ref=e81]
+          - list [ref=e86]:
+            - listitem [ref=e87]:
+              - link "Shopping Cart" [ref=e88] [cursor=pointer]:
+                - /url: https://smartlivingpakistan.com/cart/
+                - generic [ref=e89]:
+                  - img "Shopping Cart"
+                - generic [ref=e91]: "0"
+  - main [ref=e95]:
+    - article [ref=e97]:
+      - generic [ref=e100]:
+        - region "Slides" [ref=e105]:
+          - generic [ref=e106]:
+            - group [ref=e107]:
+              - img [ref=e108]
+              - link [ref=e109] [cursor=pointer]:
+                - /url: https://smartlivingpakistan.com/product-category/lights/
+            - group [ref=e110]:
+              - img [ref=e111]
+              - link "Introducing Our Own Manufactured Lights Designed with Advanced Technology" [ref=e112] [cursor=pointer]:
+                - /url: https://smartlivingpakistan.com/product-category/lights/ceiling-lights/
+                - generic [ref=e113]:
+                  - generic [ref=e114]: Introducing Our Own Manufactured Lights
+                  - generic [ref=e115]: Designed with Advanced Technology
+          - button "Previous slide" [ref=e116] [cursor=pointer]:
+            - img [ref=e117]
+          - button "Next slide" [ref=e119] [cursor=pointer]:
+            - img [ref=e120]
+        - generic [ref=e129]:
+          - heading "Categories" [level=2] [ref=e132]
+          - link "View All →" [ref=e136] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/categories/
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - link "Celling LED Lights in Pakistan" [ref=e141] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/lights/ceiling-lights/
+              - img "Celling LED Lights in Pakistan" [ref=e142]
+            - heading "Celling Lights" [level=2] [ref=e144]:
+              - link "Celling Lights" [ref=e145] [cursor=pointer]:
+                - /url: https://smartlivingpakistan.com/product-category/lights/ceiling-lights/
+          - generic [ref=e146]:
+            - link "LED Wall Lights & Lamp In Pakistan" [ref=e148] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/wall-lights/
+              - img "LED Wall Lights & Lamp In Pakistan" [ref=e149]
+            - heading "Wall Lights" [level=2] [ref=e151]:
+              - link "Wall Lights" [ref=e152] [cursor=pointer]:
+                - /url: https://smartlivingpakistan.com/product-category/wall-lights/
+          - generic [ref=e153]:
+            - link "Switch boards in Pakistan" [ref=e155] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/switch-boards/
+              - img "Switch boards in Pakistan" [ref=e156]
+            - heading "Switch Boards" [level=2] [ref=e158]:
+              - link "Switch Boards" [ref=e159] [cursor=pointer]:
+                - /url: https://smartlivingpakistan.com/product-category/switch-boards/
+          - generic [ref=e160]:
+            - link "Wall Decor in Pakistan" [ref=e162] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/wall-decor/
+              - img "Wall Decor in Pakistan" [ref=e163]
+            - heading "Wall Decor" [level=3] [ref=e165]:
+              - link "Wall Decor" [ref=e166] [cursor=pointer]:
+                - /url: https://smartlivingpakistan.com/product-category/wall-decor/
+          - generic [ref=e167]:
+            - link "Wall Molding in Pakistan" [ref=e169] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/wall-decor/wall-molding/
+              - img "Wall Molding in Pakistan" [ref=e170]
+            - heading "Wall Molding" [level=3] [ref=e172]:
+              - link "Wall Molding" [ref=e173] [cursor=pointer]:
+                - /url: https://smartlivingpakistan.com/product-category/wall-decor/wall-molding/
+          - generic [ref=e174]:
+            - link "Smart Home in pakistan" [ref=e176] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/kitchen-accessories/
+              - img "Smart Home in pakistan" [ref=e177]
+            - heading "Smart Home" [level=3] [ref=e179]:
+              - link "Smart Home" [ref=e180] [cursor=pointer]:
+                - /url: https://smartlivingpakistan.com/product-category/kitchen-accessories/
+          - generic [ref=e181]:
+            - link "Hardware tools in Pakistan" [ref=e183] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/hardware/
+              - img "Hardware tools in Pakistan" [ref=e184]
+            - heading "Hardware" [level=3] [ref=e186]:
+              - link "Hardware" [ref=e187] [cursor=pointer]:
+                - /url: https://smartlivingpakistan.com/product-category/hardware/
+          - generic [ref=e188]:
+            - link "Indoor Plants in Pakistan" [ref=e190] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/plants/
+              - img "Indoor Plants in Pakistan" [ref=e191]
+            - heading "Plants" [level=3] [ref=e193]:
+              - link "Plants" [ref=e194] [cursor=pointer]:
+                - /url: https://smartlivingpakistan.com/product-category/plants/
+        - generic [ref=e203]:
+          - heading "Celling Lights" [level=2] [ref=e206]
+          - link "View All →" [ref=e210] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/lights/ceiling-lights/
+        - list [ref=e214]:
+          - generic [ref=e215]:
+            - group [ref=e216]:
+              - generic [ref=e218]:
+                - link "12 Watt Affordable Ceiling Lights in Pakistan | Moon Ice Light Smart Living Pakistan - Smartlivingpakistan" [ref=e220] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/affordable-ceiling-lights-in-pakistan/
+                  - img "12 Watt Affordable Ceiling Lights in Pakistan | Moon Ice Light Smart Living Pakistan - Smartlivingpakistan" [ref=e221]
+                - heading "12 Watt Adjustable Ceiling Lights in Pakistan – Moon Ice" [level=4] [ref=e223]:
+                  - link "12 Watt Adjustable Ceiling Lights in Pakistan – Moon Ice" [ref=e224] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/affordable-ceiling-lights-in-pakistan/
+                - generic [ref=e227]:
+                  - generic "Rated 5 out of 5" [ref=e228]:
+                    - text: 
+                    - generic [ref=e229]:
+                      - text: 
+                      - strong [ref=e230]: "5"
+                      - text: out of 5
+                  - generic [ref=e231]: (1 Review)
+                - 'heading "Original price was: ₨ 500. Current price is: ₨ 349." [level=4] [ref=e233]':
+                  - deletion [ref=e234]:
+                    - generic [ref=e235]: ₨ 500
+                  - generic [ref=e236]: "Original price was: ₨ 500."
+                  - insertion [ref=e237]:
+                    - generic [ref=e238]: ₨ 349
+                  - generic [ref=e239]: "Current price is: ₨ 349."
+            - group [ref=e240]:
+              - generic [ref=e242]:
+                - link "7 Watt LED Ceiling Light in Pakistan – Double Capacitor Smart Living Pakistan - Smartlivingpakistan smartlivingpakistan.com" [ref=e244] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/best-ceiling-light-in-pakistan/
+                  - img "7 Watt LED Ceiling Light in Pakistan – Double Capacitor Smart Living Pakistan - Smartlivingpakistan smartlivingpakistan.com" [ref=e245]
+                - heading "7 Watt LED Ceiling Light in Pakistan | Pack of 8 Lights" [level=4] [ref=e247]:
+                  - link "7 Watt LED Ceiling Light in Pakistan | Pack of 8 Lights" [ref=e248] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/best-ceiling-light-in-pakistan/
+                - generic [ref=e251]:
+                  - generic "Rated 5 out of 5" [ref=e252]:
+                    - text: 
+                    - generic [ref=e253]:
+                      - text: 
+                      - strong [ref=e254]: "5"
+                      - text: out of 5
+                  - generic [ref=e255]: (1 Review)
+                - 'heading "Original price was: ₨ 2,800. Current price is: ₨ 1,600." [level=4] [ref=e257]':
+                  - deletion [ref=e258]:
+                    - generic [ref=e259]: ₨ 2,800
+                  - generic [ref=e260]: "Original price was: ₨ 2,800."
+                  - insertion [ref=e261]:
+                    - generic [ref=e262]: ₨ 1,600
+                  - generic [ref=e263]: "Current price is: ₨ 1,600."
+            - group [ref=e264]:
+              - generic [ref=e266]:
+                - link "12 Watt LED Ceiling Light in Pakistan - Pack of 8 LUMA Core Lights - Smart Living Pakistan - smartlivingpakistan.com" [ref=e268] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/best-12-watt-ceiling-lights-in-pakistan/
+                  - img "12 Watt LED Ceiling Light in Pakistan - Pack of 8 LUMA Core Lights - Smart Living Pakistan - smartlivingpakistan.com" [ref=e269]
+                - heading "12 Watt LED Ceiling Light in Pakistan – Pack of 8 Lights" [level=4] [ref=e271]:
+                  - link "12 Watt LED Ceiling Light in Pakistan – Pack of 8 Lights" [ref=e272] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/best-12-watt-ceiling-lights-in-pakistan/
+                - generic [ref=e275]:
+                  - generic "Rated 4 out of 5" [ref=e276]:
+                    - text: 
+                    - generic [ref=e277]:
+                      - text: 
+                      - strong [ref=e278]: "4"
+                      - text: out of 5
+                  - generic [ref=e279]: (2 Reviews)
+                - 'heading "Original price was: ₨ 3,200. Current price is: ₨ 2,320." [level=4] [ref=e281]':
+                  - deletion [ref=e282]:
+                    - generic [ref=e283]: ₨ 3,200
+                  - generic [ref=e284]: "Original price was: ₨ 3,200."
+                  - insertion [ref=e285]:
+                    - generic [ref=e286]: ₨ 2,320
+                  - generic [ref=e287]: "Current price is: ₨ 2,320."
+            - group [ref=e288]:
+              - generic [ref=e290]:
+                - link "7 Watt LED Ceiling Light in Pakistan – Double Capacitor Smart Living Pakistan - Smartlivingpakistan smartlivingpakistan.com" [ref=e292] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/best-ceiling-lights-in-pakistan/
+                  - img "7 Watt LED Ceiling Light in Pakistan – Double Capacitor Smart Living Pakistan - Smartlivingpakistan smartlivingpakistan.com" [ref=e293]
+                - heading "7 Watt LED Ceiling Light in Pakistan – Double Capacitor" [level=4] [ref=e295]:
+                  - link "7 Watt LED Ceiling Light in Pakistan – Double Capacitor" [ref=e296] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/best-ceiling-lights-in-pakistan/
+                - generic [ref=e299]:
+                  - img "Rated 0 out of 5" [ref=e300]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e301]: (0 Reviews)
+                - 'heading "Original price was: ₨ 350. Current price is: ₨ 210." [level=4] [ref=e303]':
+                  - deletion [ref=e304]:
+                    - generic [ref=e305]: ₨ 350
+                  - generic [ref=e306]: "Original price was: ₨ 350."
+                  - insertion [ref=e307]:
+                    - generic [ref=e308]: ₨ 210
+                  - generic [ref=e309]: "Current price is: ₨ 210."
+            - group [ref=e310]:
+              - generic [ref=e312]:
+                - link "12 Watt SMD Ceiling Light in Pakistan - LUMA Core - Smart Living Pakistan - Smartlivingpakistan" [ref=e314] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/12-watt-smd-ceiling-light-in-pakistan/
+                  - img "12 Watt SMD Ceiling Light in Pakistan - LUMA Core - Smart Living Pakistan - Smartlivingpakistan" [ref=e315]
+                - heading "12 Watt SMD Ceiling Light in Pakistan – LUMA Core Light" [level=4] [ref=e317]:
+                  - link "12 Watt SMD Ceiling Light in Pakistan – LUMA Core Light" [ref=e318] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/12-watt-smd-ceiling-light-in-pakistan/
+                - generic [ref=e321]:
+                  - generic "Rated 5 out of 5" [ref=e322]:
+                    - text: 
+                    - generic [ref=e323]:
+                      - text: 
+                      - strong [ref=e324]: "5"
+                      - text: out of 5
+                  - generic [ref=e325]: (1 Review)
+                - 'heading "Original price was: ₨ 400. Current price is: ₨ 299." [level=4] [ref=e327]':
+                  - deletion [ref=e328]:
+                    - generic [ref=e329]: ₨ 400
+                  - generic [ref=e330]: "Original price was: ₨ 400."
+                  - insertion [ref=e331]:
+                    - generic [ref=e332]: ₨ 299
+                  - generic [ref=e333]: "Current price is: ₨ 299."
+            - group [ref=e334]:
+              - generic [ref=e336]:
+                - link "12 Watt SMD Ceiling Light in Pakistan- Halo Series Smart Living Pakistan - Smartlivingpakistan smartlivingpakistan.com" [ref=e338] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/smd-ceiling-light-in-pakistan/
+                  - img "12 Watt SMD Ceiling Light in Pakistan- Halo Series Smart Living Pakistan - Smartlivingpakistan smartlivingpakistan.com" [ref=e339]
+                - heading "12 Watt SMD Ceiling Light in Pakistan- Halo Series" [level=4] [ref=e341]:
+                  - link "12 Watt SMD Ceiling Light in Pakistan- Halo Series" [ref=e342] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/smd-ceiling-light-in-pakistan/
+                - generic [ref=e345]:
+                  - generic "Rated 5 out of 5" [ref=e346]:
+                    - text: 
+                    - generic [ref=e347]:
+                      - text: 
+                      - strong [ref=e348]: "5"
+                      - text: out of 5
+                  - generic [ref=e349]: (1 Review)
+                - 'heading "Original price was: ₨ 400. Current price is: ₨ 310." [level=4] [ref=e351]':
+                  - deletion [ref=e352]:
+                    - generic [ref=e353]: ₨ 400
+                  - generic [ref=e354]: "Original price was: ₨ 400."
+                  - insertion [ref=e355]:
+                    - generic [ref=e356]: ₨ 310
+                  - generic [ref=e357]: "Current price is: ₨ 310."
+            - group [ref=e358]:
+              - generic [ref=e360]:
+                - link "LED Ceiling Light - LED Ceiling Light in Pakistan - Smart Living Pakistan" [ref=e362] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/led-ceiling-light-in-pakistan/
+                  - img "LED Ceiling Light - LED Ceiling Light in Pakistan - Smart Living Pakistan" [ref=e363]
+                - heading "7 Watt / 12 Watt SMD Ceiling Light In Pakistan – LUMA CP-1" [level=4] [ref=e365]:
+                  - link "7 Watt / 12 Watt SMD Ceiling Light In Pakistan – LUMA CP-1" [ref=e366] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/led-ceiling-light-in-pakistan/
+                - generic [ref=e369]:
+                  - generic "Rated 4 out of 5" [ref=e370]:
+                    - text: 
+                    - generic [ref=e371]:
+                      - text: 
+                      - strong [ref=e372]: "4"
+                      - text: out of 5
+                  - generic [ref=e373]: (1 Review)
+                - 'heading "Price range: ₨ 250 through ₨ 290" [level=4] [ref=e375]':
+                  - generic [ref=e376]: ₨ 250
+                  - text: –
+                  - generic [ref=e377]: ₨ 290
+                  - generic [ref=e378]: "Price range: ₨ 250 through ₨ 290"
+        - generic [ref=e385]:
+          - link "Wall Lights by Smart Living Pakistan Modern Wall lights in Pakistan" [ref=e388] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/lights/wall-lights/
+            - img "Wall Lights by Smart Living Pakistan Modern Wall lights in Pakistan" [ref=e389]
+          - link "Door handle lock by smart living pakistan www.smartlivingpakistan.com" [ref=e392] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/lights/ceiling-lights/
+            - img "Door handle lock by smart living pakistan www.smartlivingpakistan.com" [ref=e393]
+        - generic [ref=e403]:
+          - heading "Modern Lights" [level=2] [ref=e406]
+          - link "View All →" [ref=e410] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/wall-lights/
+        - list [ref=e414]:
+          - generic [ref=e415]:
+            - group [ref=e416]:
+              - generic [ref=e418]:
+                - link "1 Way Wall light - Waterproof LED wall light - Black Metal by smart living pakistan" [ref=e420] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/1-way-wall-light-waterproof-led-wall-light-black-metal/
+                  - img "1 Way Wall light - Waterproof LED wall light - Black Metal by smart living pakistan" [ref=e421]
+                - heading "1 Way Wall light – Waterproof LED wall light – Black Metal With Free Delivery" [level=4] [ref=e423]:
+                  - link "1 Way Wall light – Waterproof LED wall light – Black Metal With Free Delivery" [ref=e424] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/1-way-wall-light-waterproof-led-wall-light-black-metal/
+                - generic [ref=e427]:
+                  - img "Rated 0 out of 5" [ref=e428]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e429]: (0 Reviews)
+                - 'heading "Original price was: ₨ 1,550. Current price is: ₨ 1,050." [level=4] [ref=e431]':
+                  - deletion [ref=e432]:
+                    - generic [ref=e433]: ₨ 1,550
+                  - generic [ref=e434]: "Original price was: ₨ 1,550."
+                  - insertion [ref=e435]:
+                    - generic [ref=e436]: ₨ 1,050
+                  - generic [ref=e437]: "Current price is: ₨ 1,050."
+            - group [ref=e438]:
+              - generic [ref=e440]:
+                - link "2 Way Black Metal Wall Light – Waterproof Wall Light in Pakistan by Smart Living Pakistan" [ref=e442] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/black-metal-wall-light-in-pakistan/
+                  - img "2 Way Black Metal Wall Light – Waterproof Wall Light in Pakistan by Smart Living Pakistan" [ref=e443]
+                - heading "2 Way Black Metal Wall Light – Waterproof Light in Pakistan" [level=4] [ref=e445]:
+                  - link "2 Way Black Metal Wall Light – Waterproof Light in Pakistan" [ref=e446] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/black-metal-wall-light-in-pakistan/
+                - generic [ref=e449]:
+                  - img "Rated 0 out of 5" [ref=e450]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e451]: (0 Reviews)
+                - 'heading "Original price was: ₨ 2,800. Current price is: ₨ 1,450." [level=4] [ref=e453]':
+                  - deletion [ref=e454]:
+                    - generic [ref=e455]: ₨ 2,800
+                  - generic [ref=e456]: "Original price was: ₨ 2,800."
+                  - insertion [ref=e457]:
+                    - generic [ref=e458]: ₨ 1,450
+                  - generic [ref=e459]: "Current price is: ₨ 1,450."
+            - group [ref=e460]:
+              - generic [ref=e462]:
+                - link "Square Wall light - Black Aluminum Wall Light by Smart Living Pakistan" [ref=e464] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/square-wall-light-in-pakistan/
+                  - img "Square Wall light - Black Aluminum Wall Light by Smart Living Pakistan" [ref=e465]
+                - heading "Square Wall light – Black Aluminum Wall Light" [level=4] [ref=e467]:
+                  - link "Square Wall light – Black Aluminum Wall Light" [ref=e468] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/square-wall-light-in-pakistan/
+                - generic [ref=e471]:
+                  - img "Rated 0 out of 5" [ref=e472]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e473]: (0 Reviews)
+                - 'heading "Original price was: ₨ 5,000. Current price is: ₨ 3,250." [level=4] [ref=e475]':
+                  - deletion [ref=e476]:
+                    - generic [ref=e477]: ₨ 5,000
+                  - generic [ref=e478]: "Original price was: ₨ 5,000."
+                  - insertion [ref=e479]:
+                    - generic [ref=e480]: ₨ 3,250
+                  - generic [ref=e481]: "Current price is: ₨ 3,250."
+            - group [ref=e482]:
+              - generic [ref=e484]:
+                - link "Cylinder Wall Light in pakistan by smart living pakistan" [ref=e486] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/wall-lights-in-pakistan/
+                  - img "Cylinder Wall Light in pakistan by smart living pakistan" [ref=e487]
+                - heading "Cylinder Wall Light – Up Down Outdoor Wall Light" [level=4] [ref=e489]:
+                  - link "Cylinder Wall Light – Up Down Outdoor Wall Light" [ref=e490] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/wall-lights-in-pakistan/
+                - generic [ref=e493]:
+                  - img "Rated 0 out of 5" [ref=e494]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e495]: (0 Reviews)
+                - 'heading "Original price was: ₨ 3,800. Current price is: ₨ 3,150." [level=4] [ref=e497]':
+                  - deletion [ref=e498]:
+                    - generic [ref=e499]: ₨ 3,800
+                  - generic [ref=e500]: "Original price was: ₨ 3,800."
+                  - insertion [ref=e501]:
+                    - generic [ref=e502]: ₨ 3,150
+                  - generic [ref=e503]: "Current price is: ₨ 3,150."
+            - group [ref=e504]:
+              - generic [ref=e506]:
+                - link "Modern Wall Light by Smart Living Pakistan Aluminum Waterproof LED Wall Sconce Light 10W Indoor Outdoor Wall Light Modern Design Luxury Wall Lamp Black Metal Modern Wall Light Pakistan www.smartlivingpakistan.com" [ref=e508] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/modern-wall-lights/
+                  - img "Modern Wall Light by Smart Living Pakistan Aluminum Waterproof LED Wall Sconce Light 10W Indoor Outdoor Wall Light Modern Design Luxury Wall Lamp Black Metal Modern Wall Light Pakistan www.smartlivingpakistan.com" [ref=e509]
+                - heading "Modern Wall Light – Waterproof Wall Light" [level=4] [ref=e511]:
+                  - link "Modern Wall Light – Waterproof Wall Light" [ref=e512] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/modern-wall-lights/
+                - generic [ref=e515]:
+                  - generic "Rated 5 out of 5" [ref=e516]:
+                    - text: 
+                    - generic [ref=e517]:
+                      - text: 
+                      - strong [ref=e518]: "5"
+                      - text: out of 5
+                  - generic [ref=e519]: (1 Review)
+                - 'heading "Original price was: ₨ 2,500. Current price is: ₨ 1,850." [level=4] [ref=e521]':
+                  - deletion [ref=e522]:
+                    - generic [ref=e523]: ₨ 2,500
+                  - generic [ref=e524]: "Original price was: ₨ 2,500."
+                  - insertion [ref=e525]:
+                    - generic [ref=e526]: ₨ 1,850
+                  - generic [ref=e527]: "Current price is: ₨ 1,850."
+            - group [ref=e528]:
+              - generic [ref=e530]:
+                - link "Modern Wall Light - Metal Wall Light by Smart living Pakistan www.smartlivingpakistan.com" [ref=e532] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/modern-wall-light-in-pakistan/
+                  - img "Modern Wall Light - Metal Wall Light by Smart living Pakistan www.smartlivingpakistan.com" [ref=e533]
+                - heading "Ultra Modern Wall Light – Metal Wall Light" [level=4] [ref=e535]:
+                  - link "Ultra Modern Wall Light – Metal Wall Light" [ref=e536] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/modern-wall-light-in-pakistan/
+                - generic [ref=e539]:
+                  - img "Rated 0 out of 5" [ref=e540]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e541]: (0 Reviews)
+                - 'heading "Original price was: ₨ 3,200. Current price is: ₨ 2,499." [level=4] [ref=e543]':
+                  - deletion [ref=e544]:
+                    - generic [ref=e545]: ₨ 3,200
+                  - generic [ref=e546]: "Original price was: ₨ 3,200."
+                  - insertion [ref=e547]:
+                    - generic [ref=e548]: ₨ 2,499
+                  - generic [ref=e549]: "Current price is: ₨ 2,499."
+            - group [ref=e550]:
+              - generic [ref=e552]:
+                - link "Luxury wall light in pakistan by smart living pakistan" [ref=e554] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/luxury-wall-light-indoor-outdoor-wall-light/
+                  - img "Luxury wall light in pakistan by smart living pakistan" [ref=e555]
+                - heading "Luxury Wall Light – Indoor & outdoor wall light" [level=4] [ref=e557]:
+                  - link "Luxury Wall Light – Indoor & outdoor wall light" [ref=e558] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/luxury-wall-light-indoor-outdoor-wall-light/
+                - generic [ref=e561]:
+                  - generic "Rated 5 out of 5" [ref=e562]:
+                    - text: 
+                    - generic [ref=e563]:
+                      - text: 
+                      - strong [ref=e564]: "5"
+                      - text: out of 5
+                  - generic [ref=e565]: (1 Review)
+                - 'heading "Original price was: ₨ 3,500. Current price is: ₨ 2,499." [level=4] [ref=e567]':
+                  - deletion [ref=e568]:
+                    - generic [ref=e569]: ₨ 3,500
+                  - generic [ref=e570]: "Original price was: ₨ 3,500."
+                  - insertion [ref=e571]:
+                    - generic [ref=e572]: ₨ 2,499
+                  - generic [ref=e573]: "Current price is: ₨ 2,499."
+            - group [ref=e574]:
+              - generic [ref=e576]:
+                - link "Modern wall light in pakistan by smart living pakistan" [ref=e578] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/modern-wall-light-waterproof-wall-light-sconce/
+                  - img "Modern wall light in pakistan by smart living pakistan" [ref=e579]
+                - heading "Modern Wall Light | Waterproof Wall Light Sconce" [level=4] [ref=e581]:
+                  - link "Modern Wall Light | Waterproof Wall Light Sconce" [ref=e582] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/modern-wall-light-waterproof-wall-light-sconce/
+                - generic [ref=e585]:
+                  - generic "Rated 5 out of 5" [ref=e586]:
+                    - text: 
+                    - generic [ref=e587]:
+                      - text: 
+                      - strong [ref=e588]: "5"
+                      - text: out of 5
+                  - generic [ref=e589]: (1 Review)
+                - 'heading "Original price was: ₨ 5,000. Current price is: ₨ 2,999." [level=4] [ref=e591]':
+                  - deletion [ref=e592]:
+                    - generic [ref=e593]: ₨ 5,000
+                  - generic [ref=e594]: "Original price was: ₨ 5,000."
+                  - insertion [ref=e595]:
+                    - generic [ref=e596]: ₨ 2,999
+                  - generic [ref=e597]: "Current price is: ₨ 2,999."
+            - group [ref=e598]:
+              - generic [ref=e600]:
+                - link "Modern LED Wall Light – Golden Bird Wall Light - - Smart living pakistan www.smartlivingpakistan.com" [ref=e602] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/modern-led-wall-light-in-pakistan/
+                  - img "Modern LED Wall Light – Golden Bird Wall Light - - Smart living pakistan www.smartlivingpakistan.com" [ref=e603]
+                - heading "Modern LED Wall Light – Golden Bird Wall Light" [level=4] [ref=e605]:
+                  - link "Modern LED Wall Light – Golden Bird Wall Light" [ref=e606] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/modern-led-wall-light-in-pakistan/
+                - generic [ref=e609]:
+                  - img "Rated 0 out of 5" [ref=e610]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e611]: (0 Reviews)
+                - 'heading "Original price was: ₨ 5,000. Current price is: ₨ 4,350." [level=4] [ref=e613]':
+                  - deletion [ref=e614]:
+                    - generic [ref=e615]: ₨ 5,000
+                  - generic [ref=e616]: "Original price was: ₨ 5,000."
+                  - insertion [ref=e617]:
+                    - generic [ref=e618]: ₨ 4,350
+                  - generic [ref=e619]: "Current price is: ₨ 4,350."
+            - group [ref=e620]:
+              - generic [ref=e622]:
+                - link "Premium Golden Spiral LED Wall Light In Pakistan | Best Wall Light smart living pakistan - www.smartlivingpakistan.com" [ref=e624] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/led-wall-light-in-pakistan/
+                  - img "Premium Golden Spiral LED Wall Light In Pakistan | Best Wall Light smart living pakistan - www.smartlivingpakistan.com" [ref=e625]
+                - heading "Premium Golden Spiral LED Wall Light In Pakistan" [level=4] [ref=e627]:
+                  - link "Premium Golden Spiral LED Wall Light In Pakistan" [ref=e628] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/led-wall-light-in-pakistan/
+                - generic [ref=e631]:
+                  - generic "Rated 4 out of 5" [ref=e632]:
+                    - text: 
+                    - generic [ref=e633]:
+                      - text: 
+                      - strong [ref=e634]: "4"
+                      - text: out of 5
+                  - generic [ref=e635]: (1 Review)
+                - 'heading "Original price was: ₨ 7,500. Current price is: ₨ 6,440." [level=4] [ref=e637]':
+                  - deletion [ref=e638]:
+                    - generic [ref=e639]: ₨ 7,500
+                  - generic [ref=e640]: "Original price was: ₨ 7,500."
+                  - insertion [ref=e641]:
+                    - generic [ref=e642]: ₨ 6,440
+                  - generic [ref=e643]: "Current price is: ₨ 6,440."
+        - generic [ref=e652]:
+          - heading "Switch Plates" [level=2] [ref=e655]
+          - link "View All →" [ref=e659] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/switch-boards/
+        - list [ref=e663]:
+          - generic [ref=e664]:
+            - group [ref=e665]:
+              - generic [ref=e667]:
+                - link "Modern Switch Boards in Pakistan - Antique Gray Series - Smart Living Pakistan - www.smartlivingpakistan.com" [ref=e669] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/switch-boards-in-pakistan/
+                  - img "Modern Switch Boards in Pakistan - Antique Gray Series - Smart Living Pakistan - www.smartlivingpakistan.com" [ref=e670]
+                - heading "Modern Switch Boards in Pakistan – Antique Gray Series" [level=4] [ref=e672]:
+                  - link "Modern Switch Boards in Pakistan – Antique Gray Series" [ref=e673] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/switch-boards-in-pakistan/
+                - generic [ref=e676]:
+                  - img "Rated 0 out of 5" [ref=e677]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e678]: (0 Reviews)
+                - 'heading "Price range: ₨ 320 through ₨ 1,199" [level=4] [ref=e680]':
+                  - generic [ref=e681]: ₨ 320
+                  - text: –
+                  - generic [ref=e682]: ₨ 1,199
+                  - generic [ref=e683]: "Price range: ₨ 320 through ₨ 1,199"
+            - group [ref=e684]:
+              - generic [ref=e686]:
+                - link "Modern Switch Boards in Pakistan - Antique Gray Series - Smart Living Pakistan - www.smartlivingpakistan.com" [ref=e688] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/modern-switch-boards-in-pakistan/
+                  - img "Modern Switch Boards in Pakistan - Antique Gray Series - Smart Living Pakistan - www.smartlivingpakistan.com" [ref=e689]
+                - heading "Modern Switch Boards in Pakistan – Antique Black Series" [level=4] [ref=e691]:
+                  - link "Modern Switch Boards in Pakistan – Antique Black Series" [ref=e692] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/modern-switch-boards-in-pakistan/
+                - generic [ref=e695]:
+                  - img "Rated 0 out of 5" [ref=e696]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e697]: (0 Reviews)
+                - 'heading "Price range: ₨ 320 through ₨ 1,199" [level=4] [ref=e699]':
+                  - generic [ref=e700]: ₨ 320
+                  - text: –
+                  - generic [ref=e701]: ₨ 1,199
+                  - generic [ref=e702]: "Price range: ₨ 320 through ₨ 1,199"
+            - group [ref=e703]:
+              - generic [ref=e705]:
+                - link "China Fitting Switch Plate Light plug - Galaxy Black Grey Series" [ref=e707] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/multi-power-plug-15-amp/
+                  - img "China Fitting Switch Plate Light plug - Galaxy Black Grey Series" [ref=e708]
+                - heading "Multi Power Plug 15 AMP – Galaxy Black Grey Series" [level=4] [ref=e710]:
+                  - link "Multi Power Plug 15 AMP – Galaxy Black Grey Series" [ref=e711] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/multi-power-plug-15-amp/
+                - generic [ref=e714]:
+                  - generic "Rated 5 out of 5" [ref=e715]:
+                    - text: 
+                    - generic [ref=e716]:
+                      - text: 
+                      - strong [ref=e717]: "5"
+                      - text: out of 5
+                  - generic [ref=e718]: (1 Review)
+                - 'heading "Original price was: ₨ 650. Current price is: ₨ 499." [level=4] [ref=e720]':
+                  - deletion [ref=e721]:
+                    - generic [ref=e722]: ₨ 650
+                  - generic [ref=e723]: "Original price was: ₨ 650."
+                  - insertion [ref=e724]:
+                    - generic [ref=e725]: ₨ 499
+                  - generic [ref=e726]: "Current price is: ₨ 499."
+            - group [ref=e727]:
+              - generic [ref=e729]:
+                - link "8+2 Gang China Fitting Plate Galaxy Black series smart living pakistan smartlivingpakistan.com" [ref=e731] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/all-switch-plates-galaxy-black-grey-series/
+                  - img "8+2 Gang China Fitting Plate Galaxy Black series smart living pakistan smartlivingpakistan.com" [ref=e732]
+                - heading "All Switch Plates Galaxy Black Grey Series" [level=4] [ref=e734]:
+                  - link "All Switch Plates Galaxy Black Grey Series" [ref=e735] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/all-switch-plates-galaxy-black-grey-series/
+                - generic [ref=e738]:
+                  - img "Rated 0 out of 5" [ref=e739]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e740]: (0 Reviews)
+                - 'heading "Price range: ₨ 270 through ₨ 570" [level=4] [ref=e742]':
+                  - generic [ref=e743]: ₨ 270
+                  - text: –
+                  - generic [ref=e744]: ₨ 570
+                  - generic [ref=e745]: "Price range: ₨ 270 through ₨ 570"
+        - region "Slides" [ref=e755]:
+          - generic [ref=e756]:
+            - group [ref=e757]:
+              - img [ref=e758]
+            - group [ref=e760]:
+              - img [ref=e761]
+        - generic [ref=e771]:
+          - heading "Door Bells" [level=2] [ref=e774]
+          - link "View All →" [ref=e778] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/doorbell/
+        - list [ref=e782]:
+          - generic [ref=e783]:
+            - group [ref=e784]:
+              - generic [ref=e786]:
+                - link "Wireless Door Bell in Pakistan - Electric Door bell - Smart Living Pakistan - www.smartlivingpakistan.com" [ref=e788] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/wireless-door-bell-in-pakistan/
+                  - img "Wireless Door Bell in Pakistan - Electric Door bell - Smart Living Pakistan - www.smartlivingpakistan.com" [ref=e789]
+                - heading "Wireless Door Bell in Pakistan – Electric Door bell" [level=4] [ref=e791]:
+                  - link "Wireless Door Bell in Pakistan – Electric Door bell" [ref=e792] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/wireless-door-bell-in-pakistan/
+                - generic [ref=e795]:
+                  - img "Rated 0 out of 5" [ref=e796]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e797]: (0 Reviews)
+                - 'heading "Original price was: ₨ 2,500. Current price is: ₨ 1,999." [level=4] [ref=e799]':
+                  - deletion [ref=e800]:
+                    - generic [ref=e801]: ₨ 2,500
+                  - generic [ref=e802]: "Original price was: ₨ 2,500."
+                  - insertion [ref=e803]:
+                    - generic [ref=e804]: ₨ 1,999
+                  - generic [ref=e805]: "Current price is: ₨ 1,999."
+            - group [ref=e806]:
+              - generic [ref=e808]:
+                - link "Wireless doorbell High quality - Smart living Pakistan - smartlivingpakistan.com" [ref=e810] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/wireless-doorbell/
+                  - img "Wireless doorbell High quality - Smart living Pakistan - smartlivingpakistan.com" [ref=e811]
+                - heading "Wireless Doorbell – 150M Long Range Doorbell" [level=4] [ref=e813]:
+                  - link "Wireless Doorbell – 150M Long Range Doorbell" [ref=e814] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/wireless-doorbell/
+                - generic [ref=e817]:
+                  - img "Rated 0 out of 5" [ref=e818]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e819]: (0 Reviews)
+                - 'heading "Original price was: ₨ 1,600. Current price is: ₨ 1,350." [level=4] [ref=e821]':
+                  - deletion [ref=e822]:
+                    - generic [ref=e823]: ₨ 1,600
+                  - generic [ref=e824]: "Original price was: ₨ 1,600."
+                  - insertion [ref=e825]:
+                    - generic [ref=e826]: ₨ 1,350
+                  - generic [ref=e827]: "Current price is: ₨ 1,350."
+            - group [ref=e828]:
+              - generic [ref=e830]:
+                - link "Xelent High Quality Doorbell – 2 Bird Tone Smart living pakistan - smartlivingpakistan" [ref=e832] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/xelent-high-quality-doorbell/
+                  - img "Xelent High Quality Doorbell – 2 Bird Tone Smart living pakistan - smartlivingpakistan" [ref=e833]
+                - heading "Xelent High Quality Doorbell – 2 Bird Tone" [level=4] [ref=e835]:
+                  - link "Xelent High Quality Doorbell – 2 Bird Tone" [ref=e836] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/xelent-high-quality-doorbell/
+                - generic [ref=e839]:
+                  - img "Rated 0 out of 5" [ref=e840]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e841]: (0 Reviews)
+                - 'heading "Original price was: ₨ 800. Current price is: ₨ 640." [level=4] [ref=e843]':
+                  - deletion [ref=e844]:
+                    - generic [ref=e845]: ₨ 800
+                  - generic [ref=e846]: "Original price was: ₨ 800."
+                  - insertion [ref=e847]:
+                    - generic [ref=e848]: ₨ 640
+                  - generic [ref=e849]: "Current price is: ₨ 640."
+            - group [ref=e850]:
+              - generic [ref=e852]:
+                - link "Xelent Hut Shaped Wired Doorbell High Quality - Smart living pakistan - smartlivingpakistan" [ref=e854] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/xelent-hut-shaped-doorbell-high-quality/
+                  - img "Xelent Hut Shaped Wired Doorbell High Quality - Smart living pakistan - smartlivingpakistan" [ref=e855]
+                - heading "Xelent Hut Shaped Doorbell High Quality – 2 Bird Tone" [level=4] [ref=e857]:
+                  - link "Xelent Hut Shaped Doorbell High Quality – 2 Bird Tone" [ref=e858] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/xelent-hut-shaped-doorbell-high-quality/
+                - generic [ref=e861]:
+                  - img "Rated 0 out of 5" [ref=e862]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e863]: (0 Reviews)
+                - 'heading "Original price was: ₨ 800. Current price is: ₨ 640." [level=4] [ref=e865]':
+                  - deletion [ref=e866]:
+                    - generic [ref=e867]: ₨ 800
+                  - generic [ref=e868]: "Original price was: ₨ 800."
+                  - insertion [ref=e869]:
+                    - generic [ref=e870]: ₨ 640
+                  - generic [ref=e871]: "Current price is: ₨ 640."
+            - group [ref=e872]:
+              - generic [ref=e874]:
+                - link "Signal Wired High Quality Doorbell – 2 Bird Tone - Smart living pakistan - smartlivingpakistan" [ref=e876] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/signal-wired-high-quality-doorbell/
+                  - img "Signal Wired High Quality Doorbell – 2 Bird Tone - Smart living pakistan - smartlivingpakistan" [ref=e877]
+                - heading "Signal Wired High Quality Doorbell – 2 Bird Tone" [level=4] [ref=e879]:
+                  - link "Signal Wired High Quality Doorbell – 2 Bird Tone" [ref=e880] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/signal-wired-high-quality-doorbell/
+                - generic [ref=e883]:
+                  - img "Rated 0 out of 5" [ref=e884]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e885]: (0 Reviews)
+                - 'heading "Original price was: ₨ 500. Current price is: ₨ 440." [level=4] [ref=e887]':
+                  - deletion [ref=e888]:
+                    - generic [ref=e889]: ₨ 500
+                  - generic [ref=e890]: "Original price was: ₨ 500."
+                  - insertion [ref=e891]:
+                    - generic [ref=e892]: ₨ 440
+                  - generic [ref=e893]: "Current price is: ₨ 440."
+        - generic [ref=e902]:
+          - heading "Hardware" [level=2] [ref=e905]
+          - link "View All →" [ref=e909] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/hardware/
+        - list [ref=e913]:
+          - generic [ref=e914]:
+            - group [ref=e915]:
+              - generic [ref=e917]:
+                - link "brass door handle lock Brass door handle lock Pakistan Luxury brass door handle square design Modern door handle lock with key plate Premium brass door lock for bedroom Door handle lock with free delivery Pakistan" [ref=e919] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/door-handle-lock-in-pakistan/
+                  - img "brass door handle lock Brass door handle lock Pakistan Luxury brass door handle square design Modern door handle lock with key plate Premium brass door lock for bedroom Door handle lock with free delivery Pakistan" [ref=e920]
+                - heading "Brass Door Handle Lock – 3D Cut Luxury Handle Lock Pakistan" [level=4] [ref=e922]:
+                  - link "Brass Door Handle Lock – 3D Cut Luxury Handle Lock Pakistan" [ref=e923] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/door-handle-lock-in-pakistan/
+                - generic [ref=e926]:
+                  - img "Rated 0 out of 5" [ref=e927]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e928]: (0 Reviews)
+                - 'heading "Original price was: ₨ 7,000. Current price is: ₨ 5,499." [level=4] [ref=e930]':
+                  - deletion [ref=e931]:
+                    - generic [ref=e932]: ₨ 7,000
+                  - generic [ref=e933]: "Original price was: ₨ 7,000."
+                  - insertion [ref=e934]:
+                    - generic [ref=e935]: ₨ 5,499
+                  - generic [ref=e936]: "Current price is: ₨ 5,499."
+            - group [ref=e937]:
+              - generic [ref=e939]:
+                - link "Modern Door Handle Lock In Pakistan– Premium Brass - 2 Piece Modern door handle lock Pakistan Luxury door handle with mortise lock Premium lever door handle Pakistan Interior door handle lock modern design Door handle lock price in Pakistan by smart living pakistan" [ref=e941] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/modern-door-handle-lock-in-pakistan/
+                  - img "Modern Door Handle Lock In Pakistan– Premium Brass - 2 Piece Modern door handle lock Pakistan Luxury door handle with mortise lock Premium lever door handle Pakistan Interior door handle lock modern design Door handle lock price in Pakistan by smart living pakistan" [ref=e942]
+                - heading "Modern Door Handle Lock In Pakistan– Premium Brass – 2 Piece" [level=4] [ref=e944]:
+                  - link "Modern Door Handle Lock In Pakistan– Premium Brass – 2 Piece" [ref=e945] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/modern-door-handle-lock-in-pakistan/
+                - generic [ref=e948]:
+                  - img "Rated 0 out of 5" [ref=e949]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e950]: (0 Reviews)
+                - 'heading "Original price was: ₨ 7,000. Current price is: ₨ 5,499." [level=4] [ref=e952]':
+                  - deletion [ref=e953]:
+                    - generic [ref=e954]: ₨ 7,000
+                  - generic [ref=e955]: "Original price was: ₨ 7,000."
+                  - insertion [ref=e956]:
+                    - generic [ref=e957]: ₨ 5,499
+                  - generic [ref=e958]: "Current price is: ₨ 5,499."
+            - group [ref=e959]:
+              - generic [ref=e961]:
+                - link "Brass Door handle - Modern Door handle by Smart Living pakistan www.smartlivingpakistan.com" [ref=e963] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/door-handle-in-pakistan/
+                  - img "Brass Door handle - Modern Door handle by Smart Living pakistan www.smartlivingpakistan.com" [ref=e964]
+                - heading "Brass Door handle – Modern Door handle – 30 Inch" [level=4] [ref=e966]:
+                  - link "Brass Door handle – Modern Door handle – 30 Inch" [ref=e967] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/door-handle-in-pakistan/
+                - generic [ref=e970]:
+                  - generic "Rated 5 out of 5" [ref=e971]:
+                    - text: 
+                    - generic [ref=e972]:
+                      - text: 
+                      - strong [ref=e973]: "5"
+                      - text: out of 5
+                  - generic [ref=e974]: (1 Review)
+                - 'heading "Original price was: ₨ 8,000. Current price is: ₨ 6,150." [level=4] [ref=e976]':
+                  - deletion [ref=e977]:
+                    - generic [ref=e978]: ₨ 8,000
+                  - generic [ref=e979]: "Original price was: ₨ 8,000."
+                  - insertion [ref=e980]:
+                    - generic [ref=e981]: ₨ 6,150
+                  - generic [ref=e982]: "Current price is: ₨ 6,150."
+            - group [ref=e983]:
+              - generic [ref=e985]:
+                - link "Brass Door handle - Modern Door handle by Smart Living pakistan www.smartlivingpakistan.com" [ref=e987] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/door-handles-in-pakistan/
+                  - img "Brass Door handle - Modern Door handle by Smart Living pakistan www.smartlivingpakistan.com" [ref=e988]
+                - heading "Brass Door handle – Modern Door handle – 18 Inch" [level=4] [ref=e990]:
+                  - link "Brass Door handle – Modern Door handle – 18 Inch" [ref=e991] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/door-handles-in-pakistan/
+                - generic [ref=e994]:
+                  - img "Rated 0 out of 5" [ref=e995]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e996]: (0 Reviews)
+                - 'heading "Original price was: ₨ 6,500. Current price is: ₨ 4,850." [level=4] [ref=e998]':
+                  - deletion [ref=e999]:
+                    - generic [ref=e1000]: ₨ 6,500
+                  - generic [ref=e1001]: "Original price was: ₨ 6,500."
+                  - insertion [ref=e1002]:
+                    - generic [ref=e1003]: ₨ 4,850
+                  - generic [ref=e1004]: "Current price is: ₨ 4,850."
+            - group [ref=e1005]:
+              - generic [ref=e1007]:
+                - link "Brass Door handle - Modern Door handle by Smart Living pakistan www.smartlivingpakistan.com" [ref=e1009] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/brass-door-handle-modern-door-handle-2-feet/
+                  - img "Brass Door handle - Modern Door handle by Smart Living pakistan www.smartlivingpakistan.com" [ref=e1010]
+                - heading "Brass Door handle – Modern Door handle – 24 Inch" [level=4] [ref=e1012]:
+                  - link "Brass Door handle – Modern Door handle – 24 Inch" [ref=e1013] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/brass-door-handle-modern-door-handle-2-feet/
+                - generic [ref=e1016]:
+                  - img "Rated 0 out of 5" [ref=e1017]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1018]: (0 Reviews)
+                - 'heading "Original price was: ₨ 7,000. Current price is: ₨ 5,450." [level=4] [ref=e1020]':
+                  - deletion [ref=e1021]:
+                    - generic [ref=e1022]: ₨ 7,000
+                  - generic [ref=e1023]: "Original price was: ₨ 7,000."
+                  - insertion [ref=e1024]:
+                    - generic [ref=e1025]: ₨ 5,450
+                  - generic [ref=e1026]: "Current price is: ₨ 5,450."
+            - group [ref=e1027]:
+              - generic [ref=e1029]:
+                - link "Stainless Steal Drawer Lock - Cabinet locks by smart Living Pakistan www.smartlivingpakistan.com" [ref=e1031] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/stainless-steel-drawer-lock-cabinet-locks/
+                  - img "Stainless Steal Drawer Lock - Cabinet locks by smart Living Pakistan www.smartlivingpakistan.com" [ref=e1032]
+                - heading "Stainless Steel Drawer Lock – Cabinet locks Bundle of 8" [level=4] [ref=e1034]:
+                  - link "Stainless Steel Drawer Lock – Cabinet locks Bundle of 8" [ref=e1035] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/stainless-steel-drawer-lock-cabinet-locks/
+                - generic [ref=e1038]:
+                  - img "Rated 0 out of 5" [ref=e1039]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1040]: (0 Reviews)
+                - 'heading "Original price was: ₨ 6,400. Current price is: ₨ 3,895." [level=4] [ref=e1042]':
+                  - deletion [ref=e1043]:
+                    - generic [ref=e1044]: ₨ 6,400
+                  - generic [ref=e1045]: "Original price was: ₨ 6,400."
+                  - insertion [ref=e1046]:
+                    - generic [ref=e1047]: ₨ 3,895
+                  - generic [ref=e1048]: "Current price is: ₨ 3,895."
+            - group [ref=e1049]:
+              - generic [ref=e1051]:
+                - link "Stainless Steal Drawer Lock - Cabinet locks by smart Living Pakistan www.smartlivingpakistan.com" [ref=e1053] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/drawer-lock-in-pakistan/
+                  - img "Stainless Steal Drawer Lock - Cabinet locks by smart Living Pakistan www.smartlivingpakistan.com" [ref=e1054]
+                - heading "Stainless Steel Drawer Lock – Cabinet locks Bundle of 4" [level=4] [ref=e1056]:
+                  - link "Stainless Steel Drawer Lock – Cabinet locks Bundle of 4" [ref=e1057] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/drawer-lock-in-pakistan/
+                - generic [ref=e1060]:
+                  - img "Rated 0 out of 5" [ref=e1061]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1062]: (0 Reviews)
+                - 'heading "Original price was: ₨ 3,200. Current price is: ₨ 1,960." [level=4] [ref=e1064]':
+                  - deletion [ref=e1065]:
+                    - generic [ref=e1066]: ₨ 3,200
+                  - generic [ref=e1067]: "Original price was: ₨ 3,200."
+                  - insertion [ref=e1068]:
+                    - generic [ref=e1069]: ₨ 1,960
+                  - generic [ref=e1070]: "Current price is: ₨ 1,960."
+            - group [ref=e1071]:
+              - generic [ref=e1073]:
+                - link "Stainless Steal Drawer Lock - Cabinet locks by smart Living Pakistan www.smartlivingpakistan.com" [ref=e1075] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/drawer-lock-cabinet-lock/
+                  - img "Stainless Steal Drawer Lock - Cabinet locks by smart Living Pakistan www.smartlivingpakistan.com" [ref=e1076]
+                - heading "Stainless Steel Drawer Lock – Cabinet locks" [level=4] [ref=e1078]:
+                  - link "Stainless Steel Drawer Lock – Cabinet locks" [ref=e1079] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/drawer-lock-cabinet-lock/
+                - generic [ref=e1082]:
+                  - img "Rated 0 out of 5" [ref=e1083]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1084]: (0 Reviews)
+                - 'heading "Original price was: ₨ 800. Current price is: ₨ 499." [level=4] [ref=e1086]':
+                  - deletion [ref=e1087]:
+                    - generic [ref=e1088]: ₨ 800
+                  - generic [ref=e1089]: "Original price was: ₨ 800."
+                  - insertion [ref=e1090]:
+                    - generic [ref=e1091]: ₨ 499
+                  - generic [ref=e1092]: "Current price is: ₨ 499."
+            - group [ref=e1093]:
+              - generic [ref=e1095]:
+                - link "Modern Door Handle Lock - 2 Piece Door Handle Lock by smart living pakistan www.smartlivingpakistan.com" [ref=e1097] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/modern-door-handle-lock/
+                  - img "Modern Door Handle Lock - 2 Piece Door Handle Lock by smart living pakistan www.smartlivingpakistan.com" [ref=e1098]
+                - heading "Modern Door Handle Lock – 2 Piece Door Handle Lock" [level=4] [ref=e1100]:
+                  - link "Modern Door Handle Lock – 2 Piece Door Handle Lock" [ref=e1101] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/modern-door-handle-lock/
+                - generic [ref=e1104]:
+                  - img "Rated 0 out of 5" [ref=e1105]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1106]: (0 Reviews)
+                - 'heading "Original price was: ₨ 7,000. Current price is: ₨ 5,499." [level=4] [ref=e1108]':
+                  - deletion [ref=e1109]:
+                    - generic [ref=e1110]: ₨ 7,000
+                  - generic [ref=e1111]: "Original price was: ₨ 7,000."
+                  - insertion [ref=e1112]:
+                    - generic [ref=e1113]: ₨ 5,499
+                  - generic [ref=e1114]: "Current price is: ₨ 5,499."
+            - group [ref=e1115]:
+              - generic [ref=e1117]:
+                - link "Door handle lock by smart living pakistan www.smartlivingpakistan.com modern door handle lock in pakistan" [ref=e1119] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/door-handle-lock/
+                  - img "Door handle lock by smart living pakistan www.smartlivingpakistan.com modern door handle lock in pakistan" [ref=e1120]
+                - heading "Black Matte Modern Door Handle Lock" [level=4] [ref=e1122]:
+                  - link "Black Matte Modern Door Handle Lock" [ref=e1123] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/door-handle-lock/
+                - generic [ref=e1126]:
+                  - img "Rated 0 out of 5" [ref=e1127]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1128]: (0 Reviews)
+                - 'heading "Original price was: ₨ 7,000. Current price is: ₨ 5,499." [level=4] [ref=e1130]':
+                  - deletion [ref=e1131]:
+                    - generic [ref=e1132]: ₨ 7,000
+                  - generic [ref=e1133]: "Original price was: ₨ 7,000."
+                  - insertion [ref=e1134]:
+                    - generic [ref=e1135]: ₨ 5,499
+                  - generic [ref=e1136]: "Current price is: ₨ 5,499."
+        - generic [ref=e1143]:
+          - link "Door handle lock by smart living pakistan www.smartlivingpakistan.com" [ref=e1146] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/hardware/door-handle-lock/
+            - img "Door handle lock by smart living pakistan www.smartlivingpakistan.com" [ref=e1147]
+          - link "Modern plants by smart living Pakistan" [ref=e1150] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/plants/
+            - img "Modern plants by smart living Pakistan" [ref=e1151]
+        - generic [ref=e1160]:
+          - heading "Wall Decor" [level=2] [ref=e1163]
+          - link "View All →" [ref=e1167] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/wall-decor/
+        - list [ref=e1171]:
+          - generic [ref=e1172]:
+            - group [ref=e1173]:
+              - generic [ref=e1175]:
+                - link "Handmade Islamic Painting in Pakistan - Smart living pakistan www.smartlivingpakistan.com" [ref=e1177] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/handmade-islamic-painting/
+                  - img "Handmade Islamic Painting in Pakistan - Smart living pakistan www.smartlivingpakistan.com" [ref=e1178]
+                - heading "Handmade Islamic Painting (2×4 Feet) – Premium Islamic Wall Art" [level=4] [ref=e1180]:
+                  - link "Handmade Islamic Painting (2×4 Feet) – Premium Islamic Wall Art" [ref=e1181] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/handmade-islamic-painting/
+                - generic [ref=e1184]:
+                  - img "Rated 0 out of 5" [ref=e1185]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1186]: (0 Reviews)
+                - 'heading "Original price was: ₨ 10,000. Current price is: ₨ 7,499." [level=4] [ref=e1188]':
+                  - deletion [ref=e1189]:
+                    - generic [ref=e1190]: ₨ 10,000
+                  - generic [ref=e1191]: "Original price was: ₨ 10,000."
+                  - insertion [ref=e1192]:
+                    - generic [ref=e1193]: ₨ 7,499
+                  - generic [ref=e1194]: "Current price is: ₨ 7,499."
+            - group [ref=e1195]:
+              - generic [ref=e1197]:
+                - link "Modern Wall Molding in Pakistan - French wall Molding smart living pakistan - www.smartlivingpakistan.com" [ref=e1199] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/modern-french-wall-molding/
+                  - img "Modern Wall Molding in Pakistan - French wall Molding smart living pakistan - www.smartlivingpakistan.com" [ref=e1200]
+                - heading "1 Inch Modern French Wall Molding in Pakistan" [level=4] [ref=e1202]:
+                  - link "1 Inch Modern French Wall Molding in Pakistan" [ref=e1203] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/modern-french-wall-molding/
+                - generic [ref=e1206]:
+                  - img "Rated 0 out of 5" [ref=e1207]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1208]: (0 Reviews)
+                - 'heading "Original price was: ₨ 700. Current price is: ₨ 500." [level=4] [ref=e1210]':
+                  - deletion [ref=e1211]:
+                    - generic [ref=e1212]: ₨ 700
+                  - generic [ref=e1213]: "Original price was: ₨ 700."
+                  - insertion [ref=e1214]:
+                    - generic [ref=e1215]: ₨ 500
+                  - generic [ref=e1216]: "Current price is: ₨ 500."
+            - group [ref=e1217]:
+              - generic [ref=e1219]:
+                - link "Modern Wall Molding in Pakistan - French wall Molding smart living pakistan - www.smartlivingpakistan.com" [ref=e1221] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/french-wall-molding-in-pakistan/
+                  - img "Modern Wall Molding in Pakistan - French wall Molding smart living pakistan - www.smartlivingpakistan.com" [ref=e1222]
+                - heading "Modern Wall Molding in Pakistan | French wall Molding" [level=4] [ref=e1224]:
+                  - link "Modern Wall Molding in Pakistan | French wall Molding" [ref=e1225] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/french-wall-molding-in-pakistan/
+                - generic [ref=e1228]:
+                  - img "Rated 0 out of 5" [ref=e1229]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1230]: (0 Reviews)
+                - 'heading "Original price was: ₨ 700. Current price is: ₨ 500." [level=4] [ref=e1232]':
+                  - deletion [ref=e1233]:
+                    - generic [ref=e1234]: ₨ 700
+                  - generic [ref=e1235]: "Original price was: ₨ 700."
+                  - insertion [ref=e1236]:
+                    - generic [ref=e1237]: ₨ 500
+                  - generic [ref=e1238]: "Current price is: ₨ 500."
+            - group [ref=e1239]:
+              - generic [ref=e1241]:
+                - link "3D Butterfly Wall Painting – 10x12 Inches smart living pakistan" [ref=e1243] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/3d-butterfly-wall-painting/
+                  - img "3D Butterfly Wall Painting – 10x12 Inches smart living pakistan" [ref=e1244]
+                - heading "3D Butterfly Wall Painting – 12×17 Inches" [level=4] [ref=e1246]:
+                  - link "3D Butterfly Wall Painting – 12×17 Inches" [ref=e1247] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/3d-butterfly-wall-painting/
+                - generic [ref=e1250]:
+                  - img "Rated 0 out of 5" [ref=e1251]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1252]: (0 Reviews)
+                - 'heading "Original price was: ₨ 5,000. Current price is: ₨ 3,400." [level=4] [ref=e1254]':
+                  - deletion [ref=e1255]:
+                    - generic [ref=e1256]: ₨ 5,000
+                  - generic [ref=e1257]: "Original price was: ₨ 5,000."
+                  - insertion [ref=e1258]:
+                    - generic [ref=e1259]: ₨ 3,400
+                  - generic [ref=e1260]: "Current price is: ₨ 3,400."
+            - group [ref=e1261]:
+              - generic [ref=e1263]:
+                - link "Handmade Wall Painting – Modern Abstract Candle Glass Art - Smart living pakistan - smartlivingpakistan" [ref=e1265] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/handmade-wall-painting-modern-abstract-art/
+                  - img "Handmade Wall Painting – Modern Abstract Candle Glass Art - Smart living pakistan - smartlivingpakistan" [ref=e1266]
+                - heading "Handmade Wall Painting – Modern Abstract Candle Art" [level=4] [ref=e1268]:
+                  - link "Handmade Wall Painting – Modern Abstract Candle Art" [ref=e1269] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/handmade-wall-painting-modern-abstract-art/
+                - generic [ref=e1272]:
+                  - img "Rated 0 out of 5" [ref=e1273]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1274]: (0 Reviews)
+                - heading "₨ 9,500" [level=4] [ref=e1276]:
+                  - generic [ref=e1277]: ₨ 9,500
+        - generic [ref=e1286]:
+          - heading "Islamic Mosaic Art" [level=2] [ref=e1289]
+          - link "View All →" [ref=e1293] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/islamic-mosaic-art/
+        - list [ref=e1297]:
+          - generic [ref=e1298]:
+            - group [ref=e1299]:
+              - generic [ref=e1301]:
+                - link "Islamic stone mosaic art - Premium Stone Mosaic Artwork 4 * 4 Feet by Smart Living Pakistan" [ref=e1303] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/islamic-stone-mosaic-art-in-pakistan/
+                  - img "Islamic stone mosaic art - Premium Stone Mosaic Artwork 4 * 4 Feet by Smart Living Pakistan" [ref=e1304]
+                - heading "Islamic stone mosaic art – Premium Stone Mosaic Artwork 4 * 4 Feet" [level=4] [ref=e1306]:
+                  - link "Islamic stone mosaic art – Premium Stone Mosaic Artwork 4 * 4 Feet" [ref=e1307] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/islamic-stone-mosaic-art-in-pakistan/
+                - generic [ref=e1310]:
+                  - img "Rated 0 out of 5" [ref=e1311]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1312]: (0 Reviews)
+                - 'heading "Original price was: ₨ 20,000. Current price is: ₨ 15,999." [level=4] [ref=e1314]':
+                  - deletion [ref=e1315]:
+                    - generic [ref=e1316]: ₨ 20,000
+                  - generic [ref=e1317]: "Original price was: ₨ 20,000."
+                  - insertion [ref=e1318]:
+                    - generic [ref=e1319]: ₨ 15,999
+                  - generic [ref=e1320]: "Current price is: ₨ 15,999."
+            - group [ref=e1321]:
+              - generic [ref=e1323]:
+                - link "Islamic Stone Mosaic work 4 * 4 by Smart Living Pakistan Islamic mosaic art handmade Pakistan Islamic calligraphy mosaic wall art Handmade Islamic mosaic art for entrance Islamic mosaic wall décor Pakistan" [ref=e1325] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/islamic-stone-mosaic-in-pakistan/
+                  - img "Islamic Stone Mosaic work 4 * 4 by Smart Living Pakistan Islamic mosaic art handmade Pakistan Islamic calligraphy mosaic wall art Handmade Islamic mosaic art for entrance Islamic mosaic wall décor Pakistan" [ref=e1326]
+                - heading "Islamic Mosaic Art Pakistan – Islamic Stone Mosaic work 4 * 4" [level=4] [ref=e1328]:
+                  - link "Islamic Mosaic Art Pakistan – Islamic Stone Mosaic work 4 * 4" [ref=e1329] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/islamic-stone-mosaic-in-pakistan/
+                - generic [ref=e1332]:
+                  - img "Rated 0 out of 5" [ref=e1333]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1334]: (0 Reviews)
+                - 'heading "Original price was: ₨ 20,000. Current price is: ₨ 15,999." [level=4] [ref=e1336]':
+                  - deletion [ref=e1337]:
+                    - generic [ref=e1338]: ₨ 20,000
+                  - generic [ref=e1339]: "Original price was: ₨ 20,000."
+                  - insertion [ref=e1340]:
+                    - generic [ref=e1341]: ₨ 15,999
+                  - generic [ref=e1342]: "Current price is: ₨ 15,999."
+            - group [ref=e1343]:
+              - generic [ref=e1345]:
+                - link "Maa Shaa Allah Islamic Mosaic Art in Pakistan Islamic Mosaic Art In Pakistan Islamic Mosaic Artwork – Sufi Whirling Mosaic Art work by smart living Pakistan Sufi whirling mosaic art handmade Islamic wall decor Pakistan Islamic mosaic Sufi whirling artwork for outdoor wall Handmade Sufi whirling mosaic art 4x8 feet Prime quality Islamic mosaic art for car porch" [ref=e1347] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/maa-shaa-allah-islamic-mosaic-art-in-pakistan/
+                  - img "Maa Shaa Allah Islamic Mosaic Art in Pakistan Islamic Mosaic Art In Pakistan Islamic Mosaic Artwork – Sufi Whirling Mosaic Art work by smart living Pakistan Sufi whirling mosaic art handmade Islamic wall decor Pakistan Islamic mosaic Sufi whirling artwork for outdoor wall Handmade Sufi whirling mosaic art 4x8 feet Prime quality Islamic mosaic art for car porch" [ref=e1348]
+                - heading "Maa Shaa Allah Islamic Mosaic Art in Pakistan – Mosaic Art Pakistan 2×4 Feet" [level=4] [ref=e1350]:
+                  - link "Maa Shaa Allah Islamic Mosaic Art in Pakistan – Mosaic Art Pakistan 2×4 Feet" [ref=e1351] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/maa-shaa-allah-islamic-mosaic-art-in-pakistan/
+                - generic [ref=e1354]:
+                  - img "Rated 0 out of 5" [ref=e1355]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1356]: (0 Reviews)
+                - 'heading "Original price was: ₨ 11,500. Current price is: ₨ 7,950." [level=4] [ref=e1358]':
+                  - deletion [ref=e1359]:
+                    - generic [ref=e1360]: ₨ 11,500
+                  - generic [ref=e1361]: "Original price was: ₨ 11,500."
+                  - insertion [ref=e1362]:
+                    - generic [ref=e1363]: ₨ 7,950
+                  - generic [ref=e1364]: "Current price is: ₨ 7,950."
+            - group [ref=e1365]:
+              - generic [ref=e1367]:
+                - link "Maa Shaa Allah Islamic Mosaic Art in Pakistan Islamic Mosaic Art In Pakistan Islamic Mosaic Artwork – Sufi Whirling Mosaic Art work by smart living Pakistan Sufi whirling mosaic art handmade Islamic wall decor Pakistan Islamic mosaic Sufi whirling artwork for outdoor wall Handmade Sufi whirling mosaic art 4x8 feet Prime quality Islamic mosaic art for car porch" [ref=e1369] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/islamic-mosaic-art-in-pakistan/
+                  - img "Maa Shaa Allah Islamic Mosaic Art in Pakistan Islamic Mosaic Art In Pakistan Islamic Mosaic Artwork – Sufi Whirling Mosaic Art work by smart living Pakistan Sufi whirling mosaic art handmade Islamic wall decor Pakistan Islamic mosaic Sufi whirling artwork for outdoor wall Handmade Sufi whirling mosaic art 4x8 feet Prime quality Islamic mosaic art for car porch" [ref=e1370]
+                - heading "Islamic Mosaic Art In Pakistan – Sufi Whirling Mosaic – 4 * 8 Feet" [level=4] [ref=e1372]:
+                  - link "Islamic Mosaic Art In Pakistan – Sufi Whirling Mosaic – 4 * 8 Feet" [ref=e1373] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/islamic-mosaic-art-in-pakistan/
+                - generic [ref=e1376]:
+                  - img "Rated 0 out of 5" [ref=e1377]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1378]: (0 Reviews)
+                - 'heading "Original price was: ₨ 40,000. Current price is: ₨ 29,950." [level=4] [ref=e1380]':
+                  - deletion [ref=e1381]:
+                    - generic [ref=e1382]: ₨ 40,000
+                  - generic [ref=e1383]: "Original price was: ₨ 40,000."
+                  - insertion [ref=e1384]:
+                    - generic [ref=e1385]: ₨ 29,950
+                  - generic [ref=e1386]: "Current price is: ₨ 29,950."
+            - group [ref=e1387]:
+              - generic [ref=e1389]:
+                - link "Islamic Mosaic Artwork Islamic mosaic artwork Pakistan Arabic calligraphy mosaic wall art Outdoor Islamic wall art car porch Mosaic Islamic art for garage wall Luxury Islamic mosaic décor Pakistan by smart living pakistan" [ref=e1391] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/islamic-mosaic-artwork-in-pakistan/
+                  - img "Islamic Mosaic Artwork Islamic mosaic artwork Pakistan Arabic calligraphy mosaic wall art Outdoor Islamic wall art car porch Mosaic Islamic art for garage wall Luxury Islamic mosaic décor Pakistan by smart living pakistan" [ref=e1392]
+                - heading "Islamic Mosaic Artwork – Islamic Calligraphy Wall Art – 4*4 Feet" [level=4] [ref=e1394]:
+                  - link "Islamic Mosaic Artwork – Islamic Calligraphy Wall Art – 4*4 Feet" [ref=e1395] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/islamic-mosaic-artwork-in-pakistan/
+                - generic [ref=e1398]:
+                  - img "Rated 0 out of 5" [ref=e1399]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1400]: (0 Reviews)
+                - 'heading "Original price was: ₨ 20,000. Current price is: ₨ 15,999." [level=4] [ref=e1402]':
+                  - deletion [ref=e1403]:
+                    - generic [ref=e1404]: ₨ 20,000
+                  - generic [ref=e1405]: "Original price was: ₨ 20,000."
+                  - insertion [ref=e1406]:
+                    - generic [ref=e1407]: ₨ 15,999
+                  - generic [ref=e1408]: "Current price is: ₨ 15,999."
+        - generic [ref=e1417]:
+          - heading "Modern Plants" [level=2] [ref=e1420]
+          - link "View All →" [ref=e1424] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/plants/
+        - list [ref=e1428]:
+          - generic [ref=e1429]:
+            - group [ref=e1430]:
+              - generic [ref=e1432]:
+                - link "Pink Leaf Artificial Modern Artificial PlantPlant Pakistan Modern Luxury Pink Plant Home Decor 5 Feet Pink Tree Artificial Plant Imported Artificial Plant with Fiberglass Pot by Smart living Pakistan" [ref=e1434] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/modern-artificial-plants/
+                  - img "Pink Leaf Artificial Modern Artificial PlantPlant Pakistan Modern Luxury Pink Plant Home Decor 5 Feet Pink Tree Artificial Plant Imported Artificial Plant with Fiberglass Pot by Smart living Pakistan" [ref=e1435]
+                - heading "Pink Leaf Tree – Luxury Modern Artificial Plant | 5 Feet" [level=4] [ref=e1437]:
+                  - link "Pink Leaf Tree – Luxury Modern Artificial Plant | 5 Feet" [ref=e1438] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/modern-artificial-plants/
+                - generic [ref=e1441]:
+                  - img "Rated 0 out of 5" [ref=e1442]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1443]: (0 Reviews)
+                - 'heading "Original price was: ₨ 10,000. Current price is: ₨ 5,550." [level=4] [ref=e1445]':
+                  - deletion [ref=e1446]:
+                    - generic [ref=e1447]: ₨ 10,000
+                  - generic [ref=e1448]: "Original price was: ₨ 10,000."
+                  - insertion [ref=e1449]:
+                    - generic [ref=e1450]: ₨ 5,550
+                  - generic [ref=e1451]: "Current price is: ₨ 5,550."
+            - group [ref=e1452]:
+              - generic [ref=e1454]:
+                - link "White leaf tree artificial plant Pakistan Modern white artificial plant home decor Luxury 5 feet white plant with pot Artificial white leaf plant in Pakistan White decorative fiber pot plant by Smart Living Pakistan www.smartlivingpakistan.com" [ref=e1456] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/artificial-plants-in-pakistan/
+                  - img "White leaf tree artificial plant Pakistan Modern white artificial plant home decor Luxury 5 feet white plant with pot Artificial white leaf plant in Pakistan White decorative fiber pot plant by Smart Living Pakistan www.smartlivingpakistan.com" [ref=e1457]
+                - heading "White Leaf Tree – Luxury Artificial Plant | 5 Feet" [level=4] [ref=e1459]:
+                  - link "White Leaf Tree – Luxury Artificial Plant | 5 Feet" [ref=e1460] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/artificial-plants-in-pakistan/
+                - generic [ref=e1463]:
+                  - img "Rated 0 out of 5" [ref=e1464]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1465]: (0 Reviews)
+                - 'heading "Original price was: ₨ 10,000. Current price is: ₨ 5,550." [level=4] [ref=e1467]':
+                  - deletion [ref=e1468]:
+                    - generic [ref=e1469]: ₨ 10,000
+                  - generic [ref=e1470]: "Original price was: ₨ 10,000."
+                  - insertion [ref=e1471]:
+                    - generic [ref=e1472]: ₨ 5,550
+                  - generic [ref=e1473]: "Current price is: ₨ 5,550."
+            - group [ref=e1474]:
+              - generic [ref=e1476]:
+                - link "Golden Leaf Tree with Fiber Glass Pot by Smart Living Pakistan 5 Feet Luxury Artificial Autumn Tree Imported Golden Leaf Plant for Home & Office Décor Golden Decorative Tree in White Pot Silk Leaf Artificial Golden Plant Pakistan www.smartlivingpakistan.com" [ref=e1478] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/golden-leaf-tree/
+                  - img "Golden Leaf Tree with Fiber Glass Pot by Smart Living Pakistan 5 Feet Luxury Artificial Autumn Tree Imported Golden Leaf Plant for Home & Office Décor Golden Decorative Tree in White Pot Silk Leaf Artificial Golden Plant Pakistan www.smartlivingpakistan.com" [ref=e1479]
+                - heading "Golden Leaf Tree – Luxury Autumn Plant | 5 Feet" [level=4] [ref=e1481]:
+                  - link "Golden Leaf Tree – Luxury Autumn Plant | 5 Feet" [ref=e1482] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/golden-leaf-tree/
+                - generic [ref=e1485]:
+                  - generic "Rated 5 out of 5" [ref=e1486]:
+                    - text: 
+                    - generic [ref=e1487]:
+                      - text: 
+                      - strong [ref=e1488]: "5"
+                      - text: out of 5
+                  - generic [ref=e1489]: (1 Review)
+                - 'heading "Original price was: ₨ 10,000. Current price is: ₨ 5,550." [level=4] [ref=e1491]':
+                  - deletion [ref=e1492]:
+                    - generic [ref=e1493]: ₨ 10,000
+                  - generic [ref=e1494]: "Original price was: ₨ 10,000."
+                  - insertion [ref=e1495]:
+                    - generic [ref=e1496]: ₨ 5,550
+                  - generic [ref=e1497]: "Current price is: ₨ 5,550."
+        - generic [ref=e1504]:
+          - link "Door handle lock by smart living pakistan www.smartlivingpakistan.com" [ref=e1507] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/hardware/door-handle-lock/
+            - img "Door handle lock by smart living pakistan www.smartlivingpakistan.com" [ref=e1508]
+          - link "Stanley water bottle in pakistan" [ref=e1511] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-tag/stanley-pakistan/
+            - img "Stanley water bottle in pakistan" [ref=e1512]
+        - generic [ref=e1526]:
+          - heading "Home Accessories" [level=2] [ref=e1529]
+          - link "View All →" [ref=e1533] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/kitchen-accessories/
+        - list [ref=e1537]:
+          - generic [ref=e1538]:
+            - group [ref=e1539]:
+              - generic [ref=e1541]:
+                - link "Stanley Pakistan Stanley water bottle price in Pakistan black Stanley tumbler Pakistan Stanley style water bottle Pakistan insulated Black Stanley bottle Pakistan stainless steel Premium water bottle Pakistan by smart living pakistan" [ref=e1543] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/stanley-water-bottle-in-pakistan/
+                  - img "Stanley Pakistan Stanley water bottle price in Pakistan black Stanley tumbler Pakistan Stanley style water bottle Pakistan insulated Black Stanley bottle Pakistan stainless steel Premium water bottle Pakistan by smart living pakistan" [ref=e1544]
+                - heading "Stanley water bottle in Pakistan – Red Stanley water bottle" [level=4] [ref=e1546]:
+                  - link "Stanley water bottle in Pakistan – Red Stanley water bottle" [ref=e1547] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/stanley-water-bottle-in-pakistan/
+                - generic [ref=e1550]:
+                  - img "Rated 0 out of 5" [ref=e1551]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1552]: (0 Reviews)
+                - 'heading "Original price was: ₨ 15,000. Current price is: ₨ 6,500." [level=4] [ref=e1554]':
+                  - deletion [ref=e1555]:
+                    - generic [ref=e1556]: ₨ 15,000
+                  - generic [ref=e1557]: "Original price was: ₨ 15,000."
+                  - insertion [ref=e1558]:
+                    - generic [ref=e1559]: ₨ 6,500
+                  - generic [ref=e1560]: "Current price is: ₨ 6,500."
+            - group [ref=e1561]:
+              - generic [ref=e1563]:
+                - link "Stanley Pakistan Stanley water bottle price in Pakistan black Stanley tumbler Pakistan Stanley style water bottle Pakistan insulated Black Stanley bottle Pakistan stainless steel Premium water bottle Pakistan by smart living pakistan" [ref=e1565] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/stanley-pakistan-water-bottle/
+                  - img "Stanley Pakistan Stanley water bottle price in Pakistan black Stanley tumbler Pakistan Stanley style water bottle Pakistan insulated Black Stanley bottle Pakistan stainless steel Premium water bottle Pakistan by smart living pakistan" [ref=e1566]
+                - heading "Premium Stanley Water Bottle – Stanley Pakistan | Black" [level=4] [ref=e1568]:
+                  - link "Premium Stanley Water Bottle – Stanley Pakistan | Black" [ref=e1569] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/stanley-pakistan-water-bottle/
+                - generic [ref=e1572]:
+                  - img "Rated 0 out of 5" [ref=e1573]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1574]: (0 Reviews)
+                - 'heading "Original price was: ₨ 15,000. Current price is: ₨ 6,500." [level=4] [ref=e1576]':
+                  - deletion [ref=e1577]:
+                    - generic [ref=e1578]: ₨ 15,000
+                  - generic [ref=e1579]: "Original price was: ₨ 15,000."
+                  - insertion [ref=e1580]:
+                    - generic [ref=e1581]: ₨ 6,500
+                  - generic [ref=e1582]: "Current price is: ₨ 6,500."
+            - group [ref=e1583]:
+              - generic [ref=e1585]:
+                - link "Electric Dish Heater 300W / 600W – Energy Efficient - Smart living pakistan www.smartlivingpakistan.com" [ref=e1587] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/electric-dish-heater-in-pakistan/
+                  - img "Electric Dish Heater 300W / 600W – Energy Efficient - Smart living pakistan www.smartlivingpakistan.com" [ref=e1588]
+                - heading "Electric Dish Heater 300W / 600W – Energy Efficient" [level=4] [ref=e1590]:
+                  - link "Electric Dish Heater 300W / 600W – Energy Efficient" [ref=e1591] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/electric-dish-heater-in-pakistan/
+                - generic [ref=e1594]:
+                  - img "Rated 0 out of 5" [ref=e1595]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1596]: (0 Reviews)
+                - 'heading "Original price was: ₨ 5,500. Current price is: ₨ 4,000." [level=4] [ref=e1598]':
+                  - deletion [ref=e1599]:
+                    - generic [ref=e1600]: ₨ 5,500
+                  - generic [ref=e1601]: "Original price was: ₨ 5,500."
+                  - insertion [ref=e1602]:
+                    - generic [ref=e1603]: ₨ 4,000
+                  - generic [ref=e1604]: "Current price is: ₨ 4,000."
+            - group [ref=e1605]:
+              - generic [ref=e1607]:
+                - link "Electric Room Heater in Pakistan 400W / 800W smart living pakistan www.smartlivingpakistan.com" [ref=e1609] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/electric-room-heater-in-pakistan/
+                  - img "Electric Room Heater in Pakistan 400W / 800W smart living pakistan www.smartlivingpakistan.com" [ref=e1610]
+                - heading "Electric Room Heater 400W / 800W – Halogen Heating Rods" [level=4] [ref=e1612]:
+                  - link "Electric Room Heater 400W / 800W – Halogen Heating Rods" [ref=e1613] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/electric-room-heater-in-pakistan/
+                - generic [ref=e1616]:
+                  - img "Rated 0 out of 5" [ref=e1617]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1618]: (0 Reviews)
+                - 'heading "Original price was: ₨ 3,000. Current price is: ₨ 2,550." [level=4] [ref=e1620]':
+                  - deletion [ref=e1621]:
+                    - generic [ref=e1622]: ₨ 3,000
+                  - generic [ref=e1623]: "Original price was: ₨ 3,000."
+                  - insertion [ref=e1624]:
+                    - generic [ref=e1625]: ₨ 2,550
+                  - generic [ref=e1626]: "Current price is: ₨ 2,550."
+            - group [ref=e1627]:
+              - generic [ref=e1629]:
+                - link "Solar & Electric Kitchen Stove In Pakistan - Smart Living Pakistan - smartlivingpakistan.cOm" [ref=e1631] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/solar-kitchen-stove-in-pakistan/
+                  - img "Solar & Electric Kitchen Stove In Pakistan - Smart Living Pakistan - smartlivingpakistan.cOm" [ref=e1632]
+                - heading "Solar & Electric Kitchen Stove In Pakistan- 2 years Warranty" [level=4] [ref=e1634]:
+                  - link "Solar & Electric Kitchen Stove In Pakistan- 2 years Warranty" [ref=e1635] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/solar-kitchen-stove-in-pakistan/
+                - generic [ref=e1638]:
+                  - img "Rated 0 out of 5" [ref=e1639]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1640]: (0 Reviews)
+                - 'heading "Original price was: ₨ 16,600. Current price is: ₨ 15,950." [level=4] [ref=e1642]':
+                  - deletion [ref=e1643]:
+                    - generic [ref=e1644]: ₨ 16,600
+                  - generic [ref=e1645]: "Original price was: ₨ 16,600."
+                  - insertion [ref=e1646]:
+                    - generic [ref=e1647]: ₨ 15,950
+                  - generic [ref=e1648]: "Current price is: ₨ 15,950."
+            - group [ref=e1649]:
+              - generic [ref=e1651]:
+                - link "Luxury Dolphin One Piece Commode - High quality material - Smart living pakistan" [ref=e1653] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/luxury-dolphin-one-piece-commode-high-quality-material/
+                  - img "Luxury Dolphin One Piece Commode - High quality material - Smart living pakistan" [ref=e1654]
+                - heading "Luxury Dolphin One Piece Commode" [level=4] [ref=e1656]:
+                  - link "Luxury Dolphin One Piece Commode" [ref=e1657] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/luxury-dolphin-one-piece-commode-high-quality-material/
+                - generic [ref=e1660]:
+                  - img "Rated 0 out of 5" [ref=e1661]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1662]: (0 Reviews)
+                - 'heading "Original price was: ₨ 25,000. Current price is: ₨ 17,950." [level=4] [ref=e1664]':
+                  - deletion [ref=e1665]:
+                    - generic [ref=e1666]: ₨ 25,000
+                  - generic [ref=e1667]: "Original price was: ₨ 25,000."
+                  - insertion [ref=e1668]:
+                    - generic [ref=e1669]: ₨ 17,950
+                  - generic [ref=e1670]: "Current price is: ₨ 17,950."
+            - group [ref=e1671]:
+              - generic [ref=e1673]:
+                - link "RAF Electric High Speed Grinder Multifuncation 2 smart living pakistan" [ref=e1675] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/raf-electric-high-speed-multifunction-grinder/
+                  - img "RAF Electric High Speed Grinder Multifuncation 2 smart living pakistan" [ref=e1676]
+                - heading "RAF Electric High Speed Multifunction Grinder" [level=4] [ref=e1678]:
+                  - link "RAF Electric High Speed Multifunction Grinder" [ref=e1679] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/raf-electric-high-speed-multifunction-grinder/
+                - generic [ref=e1682]:
+                  - generic "Rated 5 out of 5" [ref=e1683]:
+                    - text: 
+                    - generic [ref=e1684]:
+                      - text: 
+                      - strong [ref=e1685]: "5"
+                      - text: out of 5
+                  - generic [ref=e1686]: (1 Review)
+                - 'heading "Original price was: ₨ 3,500. Current price is: ₨ 2,695." [level=4] [ref=e1688]':
+                  - deletion [ref=e1689]:
+                    - generic [ref=e1690]: ₨ 3,500
+                  - generic [ref=e1691]: "Original price was: ₨ 3,500."
+                  - insertion [ref=e1692]:
+                    - generic [ref=e1693]: ₨ 2,695
+                  - generic [ref=e1694]: "Current price is: ₨ 2,695."
+            - group [ref=e1695]:
+              - generic [ref=e1697]:
+                - link "Insect Killer lamp smartlivingpakistan smartlivingpakistan.com" [ref=e1699] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/insect-killer-led-bulb-anti-mosquito-large-size-insect-killer-bulb/
+                  - img "Insect Killer lamp smartlivingpakistan smartlivingpakistan.com" [ref=e1700]
+                - heading "Insect Killer LED bulb Anti Mosquito – High Quality" [level=4] [ref=e1702]:
+                  - link "Insect Killer LED bulb Anti Mosquito – High Quality" [ref=e1703] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/insect-killer-led-bulb-anti-mosquito-large-size-insect-killer-bulb/
+                - generic [ref=e1706]:
+                  - generic "Rated 5 out of 5" [ref=e1707]:
+                    - text: 
+                    - generic [ref=e1708]:
+                      - text: 
+                      - strong [ref=e1709]: "5"
+                      - text: out of 5
+                  - generic [ref=e1710]: (1 Review)
+                - 'heading "Price range: ₨ 549 through ₨ 999" [level=4] [ref=e1712]':
+                  - generic [ref=e1713]: ₨ 549
+                  - text: –
+                  - generic [ref=e1714]: ₨ 999
+                  - generic [ref=e1715]: "Price range: ₨ 549 through ₨ 999"
+        - generic [ref=e1724]:
+          - heading "GYM Accessories" [level=2] [ref=e1727]
+          - link "View All →" [ref=e1731] [cursor=pointer]:
+            - /url: https://smartlivingpakistan.com/product-category/gym-accessories/
+        - list [ref=e1735]:
+          - generic [ref=e1736]:
+            - group [ref=e1737]:
+              - generic [ref=e1739]:
+                - link "10mm Yoga Mat in Pakistan – Best Gym Yoga Mat - smart living pakistan www.smartlivingpakistan.com" [ref=e1741] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/yoga-mat-in-pakistan/
+                  - img "10mm Yoga Mat in Pakistan – Best Gym Yoga Mat - smart living pakistan www.smartlivingpakistan.com" [ref=e1742]
+                - heading "10mm Yoga Mat in Pakistan – Best Gym Yoga Mat" [level=4] [ref=e1744]:
+                  - link "10mm Yoga Mat in Pakistan – Best Gym Yoga Mat" [ref=e1745] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/yoga-mat-in-pakistan/
+                - generic [ref=e1748]:
+                  - img "Rated 0 out of 5" [ref=e1749]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1750]: (0 Reviews)
+                - 'heading "Original price was: ₨ 1,600. Current price is: ₨ 1,450." [level=4] [ref=e1752]':
+                  - deletion [ref=e1753]:
+                    - generic [ref=e1754]: ₨ 1,600
+                  - generic [ref=e1755]: "Original price was: ₨ 1,600."
+                  - insertion [ref=e1756]:
+                    - generic [ref=e1757]: ₨ 1,450
+                  - generic [ref=e1758]: "Current price is: ₨ 1,450."
+            - group [ref=e1759]:
+              - generic [ref=e1761]:
+                - link "Adjustable Jumping Rope in Pakistan | Skipping Rope - smart living pakistan www.smartlivingpakistan.com" [ref=e1763] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/jumping-rope-in-pakistan/
+                  - img "Adjustable Jumping Rope in Pakistan | Skipping Rope - smart living pakistan www.smartlivingpakistan.com" [ref=e1764]
+                - heading "Adjustable Jumping Rope in Pakistan | Skipping Rope" [level=4] [ref=e1766]:
+                  - link "Adjustable Jumping Rope in Pakistan | Skipping Rope" [ref=e1767] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/jumping-rope-in-pakistan/
+                - generic [ref=e1770]:
+                  - img "Rated 0 out of 5" [ref=e1771]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1772]: (0 Reviews)
+                - 'heading "Original price was: ₨ 600. Current price is: ₨ 550." [level=4] [ref=e1774]':
+                  - deletion [ref=e1775]:
+                    - generic [ref=e1776]: ₨ 600
+                  - generic [ref=e1777]: "Original price was: ₨ 600."
+                  - insertion [ref=e1778]:
+                    - generic [ref=e1779]: ₨ 550
+                  - generic [ref=e1780]: "Current price is: ₨ 550."
+            - group [ref=e1781]:
+              - generic [ref=e1783]:
+                - link "Adjustable Spring Hand Gripper – Hand Exercise - Smart living pakistan - Smartlivingpakistan" [ref=e1785] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/adjustable-spring-hand-gripper/
+                  - img "Adjustable Spring Hand Gripper – Hand Exercise - Smart living pakistan - Smartlivingpakistan" [ref=e1786]
+                - heading "Adjustable Spring Hand Gripper – Hand Exercise" [level=4] [ref=e1788]:
+                  - link "Adjustable Spring Hand Gripper – Hand Exercise" [ref=e1789] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/adjustable-spring-hand-gripper/
+                - generic [ref=e1792]:
+                  - img "Rated 0 out of 5" [ref=e1793]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1794]: (0 Reviews)
+                - 'heading "Original price was: ₨ 500. Current price is: ₨ 420." [level=4] [ref=e1796]':
+                  - deletion [ref=e1797]:
+                    - generic [ref=e1798]: ₨ 500
+                  - generic [ref=e1799]: "Original price was: ₨ 500."
+                  - insertion [ref=e1800]:
+                    - generic [ref=e1801]: ₨ 420
+                  - generic [ref=e1802]: "Current price is: ₨ 420."
+            - group [ref=e1803]:
+              - generic [ref=e1805]:
+                - link "Adjustable hand gripper - hand gripper in pakistan - Smart living pakistan - Smartlivingpakistan" [ref=e1807] [cursor=pointer]:
+                  - /url: https://smartlivingpakistan.com/product/adjustable-hand-gripper/
+                  - img "Adjustable hand gripper - hand gripper in pakistan - Smart living pakistan - Smartlivingpakistan" [ref=e1808]
+                - heading "Adjustable Hand Gripper – Hand Exercise" [level=4] [ref=e1810]:
+                  - link "Adjustable Hand Gripper – Hand Exercise" [ref=e1811] [cursor=pointer]:
+                    - /url: https://smartlivingpakistan.com/product/adjustable-hand-gripper/
+                - generic [ref=e1814]:
+                  - img "Rated 0 out of 5" [ref=e1815]:
+                    - text: 
+                    - generic:  0 out of 5
+                  - generic [ref=e1816]: (0 Reviews)
+                - 'heading "Original price was: ₨ 1,500. Current price is: ₨ 545." [level=4] [ref=e1818]':
+                  - deletion [ref=e1819]:
+                    - generic [ref=e1820]: ₨ 1,500
+                  - generic [ref=e1821]: "Original price was: ₨ 1,500."
+                  - insertion [ref=e1822]:
+                    - generic [ref=e1823]: ₨ 545
+                  - generic [ref=e1824]: "Current price is: ₨ 545."
+  - contentinfo [ref=e1830]:
+    - generic [ref=e1831]:
+      - generic [ref=e1835]:
+        - generic [ref=e1840]:
+          - heading "Trending" [level=6] [ref=e1841]:
+            - strong [ref=e1842]: Trending
+          - list [ref=e1843]:
+            - link "Smart Switch Board" [ref=e1844] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/switch-boards/
+            - link "Modern Wall Lights" [ref=e1845] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/wall-lights/
+            - link "Garden Lights" [ref=e1846] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/lights/garden-light/
+            - link "Ceiling Lights" [ref=e1847] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/lights/ceiling-lights/
+            - link "Wall Decore" [ref=e1848] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/wall-decor/
+            - link "Wall Moulding" [ref=e1849] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/wall-decor/wall-molding/
+            - link "GYM Accessories" [ref=e1850] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/gym-accessories/
+        - generic [ref=e1855]:
+          - heading "Products" [level=6] [ref=e1856]:
+            - strong [ref=e1857]: Products
+          - list [ref=e1858]:
+            - link "Doorbell" [ref=e1859] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/doorbell/
+            - link "Solar Lights" [ref=e1860] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/lights/solar-lights/
+            - link "Stanley Cups" [ref=e1861] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-tag/stanley-pakistan/
+            - link "Electric Heater" [ref=e1862] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/heater/
+            - link "Kitchen Accessories" [ref=e1863] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/kitchen-accessories/
+            - link "Hardware" [ref=e1864] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/hardware/
+            - link "Islamic Wall Art" [ref=e1865] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/product-category/wall-decor/islamic-wall-art/
+        - generic [ref=e1870]:
+          - heading "Smart Living Pakistan" [level=6] [ref=e1871]:
+            - strong [ref=e1872]: Smart Living Pakistan
+          - list [ref=e1873]:
+            - link "About Us" [ref=e1874] [cursor=pointer]:
+              - /url: "#"
+            - link "Contact Us" [ref=e1875] [cursor=pointer]:
+              - /url: "#"
+            - link "Delivery Information" [ref=e1876] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/delivery/
+            - link "Return Policy" [ref=e1877] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/return-policy/
+            - link "Refund" [ref=e1878] [cursor=pointer]:
+              - /url: "#"
+            - link "Privacy Policy" [ref=e1879] [cursor=pointer]:
+              - /url: https://smartlivingpakistan.com/privacy-policy/
+            - link "Terms & Conditions" [ref=e1880] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e1885]:
+          - heading "Other Links" [level=6] [ref=e1886]:
+            - strong [ref=e1887]: Other Links
+          - list [ref=e1888]:
+            - link "Blogs" [ref=e1889] [cursor=pointer]:
+              - /url: "#"
+            - link "Reviews" [ref=e1890] [cursor=pointer]:
+              - /url: https://www.google.com/search?sca_esv=abeb4f522ce11e62&sxsrf=AE3TifNdIjAQv9X589oor811EE0AJAI8ww:1765826895282&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E5OU64Cdo8UKURPU0mJ3o9bzdc22pp0lLn-1fcSefviaZ0asdR_PXrcnZVpjkx8Fo9oYpVRgyy6dwixCcHzatyy-SmdU_AtXkNz8gi4hSDsQ9seLtA%3D%3D&q=Smart+Living+Pakistan+Reviews&sa=X&ved=2ahUKEwj40M_mqcCRAxXuUMMIHReeFKAQ0bkNegQIOhAE&biw=1920&bih=945&dpr=1
+            - link "Sitemap" [ref=e1891] [cursor=pointer]:
+              - /url: "#"
+            - link "Bedroom Decor" [ref=e1892] [cursor=pointer]:
+              - /url: "#"
+            - link "Livingroom Designs" [ref=e1893] [cursor=pointer]:
+              - /url: "#"
+            - link "Kitchen Designs" [ref=e1894] [cursor=pointer]:
+              - /url: "#"
+            - link "Drawing room Designs" [ref=e1895] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=e1899]:
+        - generic [ref=e1904]:
+          - link "https://www.instagram.com/smartlivingpakistan" [ref=e1905] [cursor=pointer]:
+            - /url: https://www.instagram.com/smartlivingpakistan
+            - img "Instagram" [ref=e1907]
+          - link "https://www.facebook.com/smartlivingpakistan" [ref=e1909] [cursor=pointer]:
+            - /url: https://www.facebook.com/smartlivingpakistan
+            - img "Facebook" [ref=e1911]
+          - link "+923049731892" [ref=e1913] [cursor=pointer]:
+            - /url: http://+923049731892
+            - img "WhatsApp" [ref=e1915]
+          - link "https://www.pinterest.com/smartlivingpakistan/" [ref=e1917] [cursor=pointer]:
+            - /url: https://www.pinterest.com/smartlivingpakistan
+            - img "Pinterest" [ref=e1919]
+        - paragraph [ref=e1926]: © 2026 Smart Living Pakistan
+```

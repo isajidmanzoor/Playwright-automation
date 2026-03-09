@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>SLP Mobile Wrapper</title>
+  <style>
+    html,body,iframe{height:100%;width:100%;margin:0;padding:0;border:0}
+    iframe{display:block}
+  </style>
+</head>
+<body>
+  <!-- WARNING: App Stores may reject apps that are simple webview wrappers. See README for details. -->
+  <iframe id="appframe" src="https://smartlivingpakistan.com" frameborder="0" allowfullscreen sandbox="allow-forms allow-scripts allow-same-origin allow-popups"></iframe>
+  <script>
+    // Simple bridge: adjust iframe height for cutouts
+    function resize(){
+      var f = document.getElementById('appframe');
+      f.style.height = window.innerHeight + 'px';
+    }
+    window.addEventListener('resize', resize);
+    resize();
+  </script>
+</body>
+</html>
